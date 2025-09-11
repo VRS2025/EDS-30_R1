@@ -368,10 +368,11 @@ void menu4(void) { // Sys settings
             if (x < 5) selected[x] = 1; // Set selected option
 
             // Display menu options
-            img_view(45, 2, 50, _audio_50, selected[0]);
-            img_view(24, 3, 80, _rs_485_HE, selected[1]);
-            img_view(24, 4, 80, reset_HE, selected[2]);
-            img_view(24, 5, 80, about__HE, selected[3]);
+            img_view(24, 2, 80, _audio_50, selected[0]);
+            img_view(24, 3, 80, _mic_set_80, selected[1]);
+            img_view(24, 4, 80, _rs_485_HE, selected[2]);
+            img_view(24, 5, 80, reset_HE, selected[3]);
+            img_view(24, 6, 80, about__HE, selected[4]);
 
             // Right button (next)
             if (_right2.click == 1) {
@@ -392,8 +393,9 @@ void menu4(void) { // Sys settings
                 
                 switch (x) {
                     case 0: _audio_sett(); break;
-                    case 1: contr = 0; _rs_comm_(); break;
-                    case 2: // Reset confirmation
+                    case 1: contr = 0; adc_menu_MIC1(); break;
+                    case 2: contr = 0; _rs_comm_(); break;
+                    case 3: // Reset confirmation
                             Display_Picture(erase_menu);
                             unsigned int hold_time = 10000;
                             unsigned char both_pressed = 0;
@@ -418,7 +420,7 @@ void menu4(void) { // Sys settings
                             __delay_ms(1000);
                             first_screen();
                             break;
-                    case 3: _about(); break;
+                    case 4: _about(); break;
                 }
             }
 
@@ -538,12 +540,13 @@ void _rs_comm_(void){
 
 void _resete_all(void){
      
-     unsigned char addr = 0;
+     unsigned char addr = 0x02;
      
-     for (addr = 0; addr <= 0x50; addr++) {
+     for (addr = 0x02; addr <= 0x50; addr++) {
 
             EEPROM_Write(addr, 0xff);
          }
+     addr = 0x00;
         asm("RESET");
         __delay_ms(500);
         __delay_ms(500);
@@ -935,7 +938,6 @@ void sys_timer_set(void) {
             case 4: sprintf(buf, "[Line Timer: 15 Min]"); break;
         }
         if(menu_index != 0) {
-            // Remove brackets if not selected
             for(int i=0;i<strlen(buf);i++){
                 if(buf[i]=='[' || buf[i]==']') buf[i]=' ';
             }
@@ -972,30 +974,256 @@ void sys_timer_set(void) {
             }
         }
 
-        if (_left1.click) { // ENTER ? switch field
+        if (_left1.click) { // ENTER ? ??????????? ????
             _left1.click = 0;
             menu_index = (menu_index == 0) ? 1 : 0;
+            
+            if (backup_mode != config.mode) {
+                EEPROM_Write(EEPROM_ADDR_MODE, config.mode);
+
+                // ?????????? ??????? ?????? ??? ????????? ??????!
+                asm("RESET");
+                __delay_ms(500);
+            }
         }
 
-        if (_left2.click) { // BACK ? save & exit
+        if (_left2.click) { // BACK ? ????????? ? ?????
             _left2.click = 0;
+
+            // --- ???????? ????????? ---
             if (backup_line_timer != config.line_timer) { 
                 EEPROM_Write(EEPROM_ADDR_line_timer, config.line_timer);
                 line_check_presentes(config.line_timer);
             }
-            if (backup_mode != config.mode) {
-                EEPROM_Write(EEPROM_ADDR_MODE, config.mode);
-            }
-        asm("RESET");
-        __delay_ms(500);
-        __delay_ms(500);
-        __delay_ms(500);
-        __delay_ms(500);
+
+            // ???? ?????? line_timer ??????? ? ?????? ???????
+            m_t = 1;
         }
 
         __delay_ms(150);
     }
 }
+
+
+void m_screen(unsigned char i){
+    
+    if(i == 1){
+        Display_Picture(_main_7_HE);
+        i = 0;
+    }
+    
+}
+
+void first_screen(void){
+    
+    lcd_gotoxy(0,1);lcd_putstr("OK",0);
+    //img_view(0,1,8,_enter,0);
+    img_view(0,6,9,_back,0); //
+    img_view(115,1,9,_up,0);  
+    img_view(115,6,9,_down,0); 
+    img_view(35, 0, 50,sys_sett_HE, 0);      
+    
+}
+
+void tmr_drop_menu(unsigned char en){
+          
+if(en == 1){
+        lcd_clear();
+        m_screen(1);
+        exit_menu       = 0;
+        exit_en         = 0;
+        one_step        = 0;
+        backlight_tmr   = 0;
+        clr1 = clr2 = clr3 = 0;
+        m1 = m2 = m3 = m4 = 0;
+    }
+}
+
+void adc_monitor(void) {
+    static const char * const channelNames[] = {"SP1", "SP2", "MIC1", "MIC2", "MIC3"};
+    static const unsigned char channels[] = {0, 1, 17, 14, 3};
+    static const unsigned char num_channels = sizeof(channels) / sizeof(channels[0]);
+
+    unsigned char menu_index = 0; // ??????? ????????? ?????
+    debug_screen = 0;
+    lcd_clear();
+    BACK_LIGHT = 1;
+
+    shiftRegisterData &= ~((unsigned int)(1 << 10));
+    SendShiftData595(shiftRegisterData);
+
+    // ???????? ??????????? ????? 1 ???
+    for (unsigned char i = 0; i < num_channels; i++) {
+        lcd_gotoxy(0, i);
+        lcd_putstr("       ", 0); // ??????? ??????
+    }
+
+    while (!debug_screen) {
+        
+        for (unsigned char i = 0; i < num_channels; i++) {
+            int adc_value = readADC(channels[i]);
+            float voltage = (adc_value * 3.3f) / 1023.0f;
+            sprintf(scr_buff, "%c%s:%.2fV", (i==menu_index)?'>':' ', channelNames[i], voltage);
+            lcd_gotoxy(0, i);
+            lcd_putstr(scr_buff, 0);
+        }
+
+        // ?????????????? ??????????
+        lcd_gotoxy(75, 0); sprintf(scr_buff, "AC:  %d", ac_); lcd_putstr(scr_buff,0);
+        lcd_gotoxy(75, 1); sprintf(scr_buff, "BATT:%d", batt_); lcd_putstr(scr_buff,0);
+        lcd_gotoxy(75, 3); sprintf(scr_buff, "F_AMP:%d", fault_amp); lcd_putstr(scr_buff,0);
+        lcd_gotoxy(0, 5); sprintf(scr_buff, "IN1:%d", PTT_3()); lcd_putstr(scr_buff,0);
+        lcd_gotoxy(0, 6); sprintf(scr_buff, "IN2:%d", PTT_4()); lcd_putstr(scr_buff,0);
+
+        // --- ????????? ?????? ---
+        if (_right1.click) { _right1.click=0; if(menu_index>0) menu_index--; } 
+        if (_right2.click) { _right2.click=0; if(menu_index<num_channels-1) menu_index++; } 
+
+        if (_left1.click) { // Enter
+             _left1.click=0;
+                lcd_clear();
+                adc_menu_SP1();
+        }
+        if (_left2.click) { // Back
+            _left2.click=0;
+            debug_screen = 1;
+            m_a = 1;
+            lcd_clear();
+            first_screen();
+        }
+
+        __delay_ms(200);
+    }
+
+    shiftRegisterData |= (1 << 10);
+    SendShiftData595(shiftRegisterData);
+}
+
+void adc_menu_MIC1(void) {
+    unsigned char paramIndex = 0; // 0=OK,1=PR,2=CT,3=SH
+    unsigned char editing = 0;    // min/max
+    unsigned char editMax = 0;    //  max
+    //int adcValue;
+   // char buf[20];
+    unsigned char micChannels[3] = {17, 14, 3}; // MIC1, MIC2, MIC3
+    int adcValues[3];
+    char buf[10];
+    BACK_LIGHT = 1;
+    MicThresholds *mt = &mic1Thresholds;
+
+
+    lcd_gotoxy(10,3); lcd_putstr("OK:",0);
+    lcd_gotoxy(10,4); lcd_putstr("PR:",0);
+    lcd_gotoxy(10,5); lcd_putstr("CT:",0);
+    lcd_gotoxy(10,6); lcd_putstr("SH:",0);
+
+    while (!_left2.click) { // Back
+ 
+        for(uint8_t i=0;i<3;i++){
+            adcValues[i] = readADC(micChannels[i]);
+        }
+
+    // "M1:123  M2:456  M3:789"
+        sprintf(buf,"M1:%3d M2:%3d M3:%3d", adcValues[0], adcValues[1], adcValues[2]);
+        lcd_gotoxy(0,0); // ????? ?? ?????? ??????
+        lcd_putstr(buf,0);
+
+        // ?????????? ??????
+        unsigned int minVal,maxVal;
+        for(unsigned char i=0;i<4;i++){
+            switch(i){
+                case 0: minVal=mt->ok_min; maxVal=mt->ok_max; break;
+                case 1: minVal=mt->pr_min; maxVal=mt->pr_max; break;
+                case 2: minVal=mt->ct_min; maxVal=mt->ct_max; break;
+                case 3: minVal=mt->sh_min; maxVal=mt->sh_max; break;
+            }
+
+            unsigned char y = 3+i;  
+            unsigned char xVal = 40;  // min/max
+
+
+            if(i==paramIndex && editing){
+                if(editMax)
+                    sprintf(buf,"[%3d]   ", maxVal);
+                else
+                    sprintf(buf,"[%3d]   ", minVal);
+            } else {
+                sprintf(buf," %3d - %3d ", minVal, maxVal);
+            }
+            lcd_gotoxy(xVal,y);
+            lcd_putstr(buf,0);
+
+            // ??????? ?????? ????????? (?????? ??? ?????????)
+            lcd_gotoxy(30,y);
+            lcd_putch(i==paramIndex && !editing?'>':' ',0);
+        }
+
+        // --- ?????? ---
+        if(!editing){
+            if(_right1.click){ _right1.click=0; if(paramIndex>0) paramIndex--; }
+            if(_right2.click){ _right2.click=0; if(paramIndex<3) paramIndex++; }
+            if(_left1.click){ _left1.click=0; editing=1; editMax=0; } // Enter ????????????? min
+        } else {
+            // ??????????? min/max ????????
+            if(_right1.click){ _right1.click=0; if(!editMax) increaseParamMin(mt,paramIndex); else increaseParamMax(mt,paramIndex); }
+            if(_right2.click){ _right2.click=0; if(!editMax) decreaseParamMin(mt,paramIndex); else decreaseParamMax(mt,paramIndex); }
+            if(_left1.click){ _left1.click=0;
+                if(!editMax) editMax=1; // ??????? ? max
+                else editing=0;          // ????????? ??????????????
+            }
+        }
+
+        __delay_ms(100);
+    }
+    _left2.click=0;
+    saveMic1ThresholdsToEEPROM();
+    lcd_clear();
+    first_screen(); // Return to the first screen
+}
+
+void adc_menu_SP1(void){
+ 
+    
+    
+}
+
+void increaseParamMin(MicThresholds *mt, unsigned char param) {
+    switch(param) {
+        case 0: if(mt->ok_min<mt->ok_max) mt->ok_min++; break;
+        case 1: if(mt->pr_min<mt->pr_max) mt->pr_min++; break;
+        case 2: if(mt->ct_min<mt->ct_max) mt->ct_min++; break;
+        case 3: if(mt->sh_min<mt->sh_max) mt->sh_min++; break;
+    }
+}
+
+void decreaseParamMin(MicThresholds *mt, unsigned char param) {
+    switch(param) {
+        case 0: if(mt->ok_min>0) mt->ok_min--; break;
+        case 1: if(mt->pr_min>0) mt->pr_min--; break;
+        case 2: if(mt->ct_min>0) mt->ct_min--; break;
+        case 3: if(mt->sh_min>0) mt->sh_min--; break;
+    }
+}
+
+void increaseParamMax(MicThresholds *mt, unsigned char param) {
+    switch(param) {
+        case 0: mt->ok_max++; break;
+        case 1: mt->pr_max++; break;
+        case 2: mt->ct_max++; break;
+        case 3: mt->sh_max++; break;
+    }
+}
+
+void decreaseParamMax(MicThresholds *mt, unsigned char param) {
+    switch(param) {
+        case 0: if(mt->ok_max>mt->ok_min) mt->ok_max--; break;
+        case 1: if(mt->pr_max>mt->pr_min) mt->pr_max--; break;
+        case 2: if(mt->ct_max>mt->ct_min) mt->ct_max--; break;
+        case 3: if(mt->sh_max>mt->sh_min) mt->sh_max--; break;
+    }
+}
+
+
 
 //void sys_timer_set(void) {
 //    
@@ -1058,239 +1286,6 @@ void sys_timer_set(void) {
 //        }
 //    } 
 //}
-
-void m_screen(unsigned char i){
-    
-    if(i == 1){
-        Display_Picture(_main_7_HE);
-        i = 0;
-    }
-    
-}
-
-void first_screen(void){
-    
-    lcd_gotoxy(0,1);lcd_putstr("OK",0);
-    //img_view(0,1,8,_enter,0);
-    img_view(0,6,9,_back,0); //
-    img_view(115,1,9,_up,0);  
-    img_view(115,6,9,_down,0); 
-    img_view(35, 0, 50,sys_sett_HE, 0);      
-    
-}
-
-void tmr_drop_menu(unsigned char en){
-          
-if(en == 1){
-        lcd_clear();
-        m_screen(1);
-        exit_menu       = 0;
-        exit_en         = 0;
-        one_step        = 0;
-        backlight_tmr   = 0;
-        clr1 = clr2 = clr3 = 0;
-        m1 = m2 = m3 = m4 = 0;
-    }
-}
-
-void adc_monitor(void) {
-    static const char * const channelNames[] = {"SP1", "SP2", "MIC1", "MIC2", "MIC3"};
-    static const unsigned char channels[] = {0, 1, 17, 14, 3};
-    static const unsigned char num_channels = sizeof(channels) / sizeof(channels[0]);
-
-    unsigned char menu_index = 0; // ??????? ????????? ?????
-    debug_screen = 0;
-    lcd_clear();
-    BACK_LIGHT = 1;
-
-    shiftRegisterData &= ~((unsigned int)(1 << 10));
-    SendShiftData595(shiftRegisterData);
-
-    // ???????? ??????????? ????? 1 ???
-    for (unsigned char i = 0; i < num_channels; i++) {
-        lcd_gotoxy(0, i);
-        lcd_putstr("       ", 0); // ??????? ??????
-    }
-
-    while (!debug_screen) {
-        // --- ?????????? ??? ?????? ---
-        for (unsigned char i = 0; i < num_channels; i++) {
-            int adc_value = readADC(channels[i]);
-            float voltage = (adc_value * 3.3f) / 1023.0f;
-            sprintf(scr_buff, "%c%s:%.2fV", (i==menu_index)?'>':' ', channelNames[i], voltage);
-            lcd_gotoxy(0, i);
-            lcd_putstr(scr_buff, 0);
-        }
-
-        // ?????????????? ??????????
-        lcd_gotoxy(75, 0); sprintf(scr_buff, "AC:  %d", ac_); lcd_putstr(scr_buff,0);
-        lcd_gotoxy(75, 1); sprintf(scr_buff, "BATT:%d", batt_); lcd_putstr(scr_buff,0);
-        lcd_gotoxy(75, 3); sprintf(scr_buff, "F_AMP:%d", fault_amp); lcd_putstr(scr_buff,0);
-        lcd_gotoxy(0, 5); sprintf(scr_buff, "IN1:%d", PTT_3()); lcd_putstr(scr_buff,0);
-        lcd_gotoxy(0, 6); sprintf(scr_buff, "IN2:%d", PTT_4()); lcd_putstr(scr_buff,0);
-
-        // --- ????????? ?????? ---
-        if (_right1.click) { _right1.click=0; if(menu_index>0) menu_index--; } // ?????
-        if (_right2.click) { _right2.click=0; if(menu_index<num_channels-1) menu_index++; } // ????
-
-        if (_left1.click) { // Enter
-             _left1.click=0;
-        switch(menu_index) {
-            case 0: // SP1
-                lcd_clear();
-                adc_menu_SP1();
-                break;
-            case 1: // SP2
-                lcd_clear();
-                adc_menu_SP1();
-                break;
-            case 2: // MIC1
-                lcd_clear();
-                adc_menu_MIC1();
-                break;
-
-            }
-        }
-        if (_left2.click) { // Back
-            _left2.click=0;
-            debug_screen = 1;
-            m_a = 1;
-            lcd_clear();
-            first_screen();
-        }
-
-        __delay_ms(200);
-    }
-
-    shiftRegisterData |= (1 << 10);
-    SendShiftData595(shiftRegisterData);
-}
-
-
-void adc_menu_MIC1(void) {
-    unsigned char paramIndex = 0; // 0=OK,1=PR,2=CT,3=SH
-    unsigned char editing = 0;    // 0=????????, 1=??????????? min/max
-    unsigned char editMax = 0;    // 0=??????????? min, 1=??????????? max
-    //int adcValue;
-   // char buf[20];
-    unsigned char micChannels[3] = {17, 14, 3}; // MIC1, MIC2, MIC3
-    int adcValues[3];
-    char buf[10];
-    BACK_LIGHT = 1;
-    MicThresholds *mt = &mic1Thresholds;
-
-    // ???????????? ??????????? ?????? ???? ???
-    lcd_gotoxy(10,3); lcd_putstr("OK:",0);
-    lcd_gotoxy(10,4); lcd_putstr("PR:",0);
-    lcd_gotoxy(10,5); lcd_putstr("CT:",0);
-    lcd_gotoxy(10,6); lcd_putstr("SH:",0);
-
-    while (!_left2.click) { // Back
-        // ??????? ??? ADC ??? ?? ????
-        for(uint8_t i=0;i<3;i++){
-            adcValues[i] = readADC(micChannels[i]);
-        }
-
-    // ????????? ?????? "M1:123  M2:456  M3:789"
-        sprintf(buf,"M1:%3d M2:%3d M3:%3d", adcValues[0], adcValues[1], adcValues[2]);
-        lcd_gotoxy(0,0); // ????? ?? ?????? ??????
-        lcd_putstr(buf,0);
-
-        // ?????????? ??????
-        unsigned int minVal,maxVal;
-        for(unsigned char i=0;i<4;i++){
-            switch(i){
-                case 0: minVal=mt->ok_min; maxVal=mt->ok_max; break;
-                case 1: minVal=mt->pr_min; maxVal=mt->pr_max; break;
-                case 2: minVal=mt->ct_min; maxVal=mt->ct_max; break;
-                case 3: minVal=mt->sh_min; maxVal=mt->sh_max; break;
-            }
-
-            unsigned char y = 3+i;   // ?????? ????????? ? ???????
-            unsigned char xVal = 40;  // ???????? min/max
-
-            // ????????? ?????????????? ?????
-            if(i==paramIndex && editing){
-                if(editMax)
-                    sprintf(buf,"[%3d]   ", maxVal);
-                else
-                    sprintf(buf,"[%3d]   ", minVal);
-            } else {
-                sprintf(buf," %3d - %3d ", minVal, maxVal);
-            }
-            lcd_gotoxy(xVal,y);
-            lcd_putstr(buf,0);
-
-            // ??????? ?????? ????????? (?????? ??? ?????????)
-            lcd_gotoxy(30,y);
-            lcd_putch(i==paramIndex && !editing?'>':' ',0);
-        }
-
-        // --- ?????? ---
-        if(!editing){
-            if(_right1.click){ _right1.click=0; if(paramIndex>0) paramIndex--; }
-            if(_right2.click){ _right2.click=0; if(paramIndex<3) paramIndex++; }
-            if(_left1.click){ _left1.click=0; editing=1; editMax=0; } // Enter ????????????? min
-        } else {
-            // ??????????? min/max ????????
-            if(_right1.click){ _right1.click=0; if(!editMax) increaseParamMin(mt,paramIndex); else increaseParamMax(mt,paramIndex); }
-            if(_right2.click){ _right2.click=0; if(!editMax) decreaseParamMin(mt,paramIndex); else decreaseParamMax(mt,paramIndex); }
-            if(_left1.click){ _left1.click=0;
-                if(!editMax) editMax=1; // ??????? ? max
-                else editing=0;          // ????????? ??????????????
-            }
-        }
-
-        __delay_ms(100);
-    }
-    _left2.click=0;
-    saveMic1ThresholdsToEEPROM();
-}
-
-void adc_menu_SP1(void){
- 
-    
-    
-}
-
-void increaseParamMin(MicThresholds *mt, unsigned char param) {
-    switch(param) {
-        case 0: if(mt->ok_min<mt->ok_max) mt->ok_min++; break;
-        case 1: if(mt->pr_min<mt->pr_max) mt->pr_min++; break;
-        case 2: if(mt->ct_min<mt->ct_max) mt->ct_min++; break;
-        case 3: if(mt->sh_min<mt->sh_max) mt->sh_min++; break;
-    }
-}
-
-void decreaseParamMin(MicThresholds *mt, unsigned char param) {
-    switch(param) {
-        case 0: if(mt->ok_min>0) mt->ok_min--; break;
-        case 1: if(mt->pr_min>0) mt->pr_min--; break;
-        case 2: if(mt->ct_min>0) mt->ct_min--; break;
-        case 3: if(mt->sh_min>0) mt->sh_min--; break;
-    }
-}
-
-void increaseParamMax(MicThresholds *mt, unsigned char param) {
-    switch(param) {
-        case 0: mt->ok_max++; break;
-        case 1: mt->pr_max++; break;
-        case 2: mt->ct_max++; break;
-        case 3: mt->sh_max++; break;
-    }
-}
-
-void decreaseParamMax(MicThresholds *mt, unsigned char param) {
-    switch(param) {
-        case 0: if(mt->ok_max>mt->ok_min) mt->ok_max--; break;
-        case 1: if(mt->pr_max>mt->pr_min) mt->pr_max--; break;
-        case 2: if(mt->ct_max>mt->ct_min) mt->ct_max--; break;
-        case 3: if(mt->sh_max>mt->sh_min) mt->sh_max--; break;
-    }
-}
-
-
-
 
 
 

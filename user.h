@@ -142,7 +142,6 @@ if(_name.stat)                                      \
     
 unsigned char adc_en = 0;
 unsigned char press_but = 0;
-unsigned char first_menu = 0;
 unsigned char mlfnction = 0;
 unsigned char mlfn_neg = 0;
 unsigned char _one_step = 0;
@@ -162,7 +161,7 @@ volatile unsigned int last_error_state = 0;
 extern void sys_init(void);
 extern void push_butt(void);
 
-extern void _first_run_(unsigned char en,unsigned char en2);
+extern void _first_run_(void);
 extern void zone_on_off(unsigned char rly1,unsigned char rly2);
 extern void mulfunctions_(unsigned char _neg);
 extern void clear_scree_(void);
@@ -469,7 +468,7 @@ extern void print_errors_(void);
 extern void print_sp_errors_(void);
 
 
-//============================EPPROM===========================================//
+//============================EPPROM=  Address Range 0 - 0x3FF(1024)==========================================//
 
 #define memory_blank                    0x00
 #define EEPROM_ADDR_MODE                0x01

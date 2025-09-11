@@ -54,14 +54,14 @@ void sys_adc_tst(unsigned char i) {
 
     // ---------- Test Battery Voltage ----------
     // Only check battery if no AC error is active.
-//    if (error_code == 0 && batt_ == 0) { 
-//        all_errors1 |= (1u << 0);  // Set error bit for battery
-//        error_code = 2;            // Battery error code
-//        b = 0;                 
-//    } else { 
-//        all_errors1 &= ~(1u << 0);
-//        p3 = 1;
-//    }
+    if (error_code == 0 && batt_ == 0) { 
+        all_errors1 |= (1u << 0);  // Set error bit for battery
+        error_code = 2;            // Battery error code
+        b = 0;                 
+    } else { 
+        all_errors1 &= ~(1u << 0);
+        p3 = 1;
+    }
 
     // ---------- Test Amplifier Fault ----------
     // Only check amplifier if neither AC nor battery error exists.
@@ -124,11 +124,13 @@ void mulfunctions_(unsigned char _neg) {
         clr3 = 0;
     } else {
         //lcd_clear_pixels(30, 95, 0);
-        if (config.mode == 1) {
-            if(clr1 == 0 && clr2 == 0 && clr3 == 0){
+        if (config.mode == 1)
+        {
+            if (clr1 == 0 && clr2 == 0 && clr3 == 0)
+            {
                 lcd_gotoxy(35, 0);
                 lcd_putstr(" EDS-30  ", 0);
-                shiftRegisterData &= ~((unsigned int) (1 << 11));                   // - DRY_CONT - OFF
+                shiftRegisterData &= ~((unsigned int) (1 << 11)); // - DRY_CONT - OFF
                 //img_view(45, 0, 37, eds_30, 0);
                 clr1 = 1;
                 clr2 = 1;
@@ -138,7 +140,7 @@ void mulfunctions_(unsigned char _neg) {
             
             if(clr1 == 0 || clr2 == 0 || clr3 == 0){
                 lcd_gotoxy(35, 0);
-                lcd_putstr(" EDS-30D  ", 0);
+                lcd_putstr(" EDS-60  ", 0);
                 //img_view(38, 0, 48, eds_30D, 0);
                 clr1 = 1;
                 clr2 = 1;

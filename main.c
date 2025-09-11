@@ -77,7 +77,7 @@ void sys_init(void){
     SetWiperValue(MCP4561_ADDR2, 0, 0xff);
 
     LoadConfigData();
-    _first_run_(first_menu,0);                                                                                //MSG INIT
+    _first_run_();                                                                                //MSG INIT
     BACK_LIGHT = 1;
     startup_logo_leds();
     Display_Picture(_main_7_HE); 
@@ -102,46 +102,33 @@ void startup_logo_leds(void){
     lcd_clear();
 }
 
-void _first_run_(unsigned char en,unsigned char en2){
+void _first_run_(void){
+    
+        Display_Picture(mode001_HE);
+        
+        if (config.mode == 0xff || config.mode == 0x00){
+            contr1 = 1;
+            BACK_LIGHT = 1;
+            config.mode = 1;
+            while (contr1 == 1)
+            {
 
-if(en==1){
-   // if()
-    Display_Picture(mode001_HE);
-   //contr1 = 1;
-//    while(contr1==1){
-//     
-//                if(!PORTEbits.RE2){
-//                    //_right1.click = 0; 
-//                    BACK_LIGHT = 1;
-//                    config.mode = 2;
-//                    }
-//
-//                 if(!PORTCbits.RC0){
-//                    //_right2.click = 0;
-//                    BACK_LIGHT = 1;
-//                    config.mode = 1;
-//
-//                    }
-//         if(config.mode == 1){
-//
-//             display_digit(59,6,1,0);
-//         }else{
-//             display_digit(59,6,2,0);
-//            }
-//
-//
-//        if(!PORTEbits.RE1){
-//                //_left2.click = 0;
-//                BACK_LIGHT = 1;
-//                contr1 = 0;
-//                lcd_clear();
-//                first_menu = 0;
-//                EEPROM_Write(EEPROM_ADDR_MODE, config.mode);
-//                img_view(0,6,9,_back,0); // 
-//            }
-//
-//        }
-    }
+                if (!PORTEbits.RE2){config.mode = 2;}
+                if (!PORTCbits.RC0){config.mode = 1;}
+                if (config.mode == 1){display_digit(59, 6, 1, 0);}else{display_digit(59, 6, 2, 0);}
+
+                if (!PORTEbits.RE1)
+                {
+                    //_left2.click = 0;
+                    BACK_LIGHT = 1;
+                    contr1 = 0;
+                    lcd_clear();
+                    EEPROM_Write(EEPROM_ADDR_MODE, config.mode);
+                    img_view(0, 6, 9, _back, 0); // 
+                }
+
+            }
+        }
        
        if(counter[0].Zones == 0xff){if(config.mode == 1){counter[0].Zones = 0;}else{counter[0].Zones = 2;}}
        if(counter[0].MSG == 0xff){if(config.mode == 1){counter[0].MSG = 4;}else{counter[0].MSG = 1;}} 
@@ -190,12 +177,12 @@ void LoadConfigData(void) {
     }
 
 
-    if (config.mode == 0xff) {
-        first_menu = 1;
-        config.mode = 2;
-    } else {
-        first_menu = 0;
-    }
+//    if (config.mode == 0xff) {
+
+//        config.mode = 2;
+//    } else {
+
+//    }
     
     if (config.mic1_mode == 255 || config.mic1_mode == 1){
         

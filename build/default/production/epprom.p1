@@ -6,16 +6,16 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _PORTE `Vuc ~T0 @X0 0 e@3972 ]
 "6835
 [v _PORTC `Vuc ~T0 @X0 0 e@3970 ]
-"220 ./user.h
-[; ;./user.h: 220: typedef struct {
+"219 ./user.h
+[; ;./user.h: 219: typedef struct {
 [s S851 `ui 1 `ui 1 `ui 1 `ui 1 `ui 1 `ui 1 `ui 1 `ui 1 ]
 [n S851 . ok_min ok_max pr_min pr_max ct_min ct_max sh_min sh_max ]
-"260
-[; ;./user.h: 260:  struct zone {
+"259
+[; ;./user.h: 259:  struct zone {
 [s S852 `uc 1 `uc 1 ]
 [n S852 zone Zones MSG ]
-"522
-[; ;./user.h: 522: typedef struct {
+"521
+[; ;./user.h: 521: typedef struct {
 [s S853 `uc 1 `uc 1 `uc 1 `uc 1 `uc 1 `uc 1 `uc 1 `uc 1 `uc 1 `uc 1 `uc 1 `uc 1 `uc 1 `uc 1 `uc 1 ]
 [n S853 . mem_blank MSG mic1_mode msg_volume mic1_volume mic2_volume mic3_volume mode zone_sel1 zone_sel2 zone_sel3 lang _485 slave_count line_timer ]
 "10175 C:/Users/vinok/.mchp_packs/Microchip/PIC18F-K_DFP/1.13.292/xc8\pic\include\proc\pic18F46K22.h
@@ -736,169 +736,163 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ]
 "145
-[; ;./user.h: 145: unsigned char first_menu = 0;
-[v _first_menu `uc ~T0 @X0 1 e ]
-[i _first_menu
--> -> 0 `i `uc
-]
-"146
-[; ;./user.h: 146: unsigned char mlfnction = 0;
+[; ;./user.h: 145: unsigned char mlfnction = 0;
 [v _mlfnction `uc ~T0 @X0 1 e ]
 [i _mlfnction
 -> -> 0 `i `uc
 ]
-"147
-[; ;./user.h: 147: unsigned char mlfn_neg = 0;
+"146
+[; ;./user.h: 146: unsigned char mlfn_neg = 0;
 [v _mlfn_neg `uc ~T0 @X0 1 e ]
 [i _mlfn_neg
 -> -> 0 `i `uc
 ]
-"148
-[; ;./user.h: 148: unsigned char _one_step = 0;
+"147
+[; ;./user.h: 147: unsigned char _one_step = 0;
 [v __one_step `uc ~T0 @X0 1 e ]
 [i __one_step
 -> -> 0 `i `uc
 ]
-"149
-[; ;./user.h: 149: unsigned char m1_inv = 0;
+"148
+[; ;./user.h: 148: unsigned char m1_inv = 0;
 [v _m1_inv `uc ~T0 @X0 1 e ]
 [i _m1_inv
 -> -> 0 `i `uc
 ]
-"150
-[; ;./user.h: 150: unsigned char m2_inv = 0;
+"149
+[; ;./user.h: 149: unsigned char m2_inv = 0;
 [v _m2_inv `uc ~T0 @X0 1 e ]
 [i _m2_inv
 -> -> 0 `i `uc
 ]
-"151
-[; ;./user.h: 151: unsigned char m3_inv = 0;
+"150
+[; ;./user.h: 150: unsigned char m3_inv = 0;
 [v _m3_inv `uc ~T0 @X0 1 e ]
 [i _m3_inv
 -> -> 0 `i `uc
 ]
-"152
-[; ;./user.h: 152: unsigned char l1_inv = 0;
+"151
+[; ;./user.h: 151: unsigned char l1_inv = 0;
 [v _l1_inv `uc ~T0 @X0 1 e ]
 [i _l1_inv
 -> -> 0 `i `uc
 ]
-"153
-[; ;./user.h: 153: unsigned char l2_inv = 0;
+"152
+[; ;./user.h: 152: unsigned char l2_inv = 0;
 [v _l2_inv `uc ~T0 @X0 1 e ]
 [i _l2_inv
 -> -> 0 `i `uc
 ]
-"154
-[; ;./user.h: 154: unsigned char exit_en = 0;
+"153
+[; ;./user.h: 153: unsigned char exit_en = 0;
 [v _exit_en `uc ~T0 @X0 1 e ]
 [i _exit_en
 -> -> 0 `i `uc
 ]
-"156
-[; ;./user.h: 156: unsigned char mulf_screen1 = 0;
+"155
+[; ;./user.h: 155: unsigned char mulf_screen1 = 0;
 [v _mulf_screen1 `uc ~T0 @X0 1 e ]
 [i _mulf_screen1
 -> -> 0 `i `uc
 ]
-"157
-[; ;./user.h: 157: volatile unsigned int last_error_state = 0;
+"156
+[; ;./user.h: 156: volatile unsigned int last_error_state = 0;
 [v _last_error_state `Vui ~T0 @X0 1 e ]
 [i _last_error_state
 -> -> 0 `i `ui
 ]
-"160
-[; ;./user.h: 160:     char _no = 0;
+"159
+[; ;./user.h: 159:     char _no = 0;
 [v __no `uc ~T0 @X0 1 e ]
 [i __no
 -> -> 0 `i `uc
 ]
-"185
-[; ;./user.h: 185: unsigned int tmr0_blink_led = 0;
+"184
+[; ;./user.h: 184: unsigned int tmr0_blink_led = 0;
 [v _tmr0_blink_led `ui ~T0 @X0 1 e ]
 [i _tmr0_blink_led
 -> -> 0 `i `ui
 ]
-"186
-[; ;./user.h: 186: unsigned int tmr0_bip = 0;
+"185
+[; ;./user.h: 185: unsigned int tmr0_bip = 0;
 [v _tmr0_bip `ui ~T0 @X0 1 e ]
 [i _tmr0_bip
 -> -> 0 `i `ui
 ]
-"188
-[; ;./user.h: 188: unsigned int tmr_line_tst = 0;
+"187
+[; ;./user.h: 187: unsigned int tmr_line_tst = 0;
 [v _tmr_line_tst `ui ~T0 @X0 1 e ]
 [i _tmr_line_tst
 -> -> 0 `i `ui
 ]
-"189
-[; ;./user.h: 189: unsigned long tmr_line_tst_set = 0;
+"188
+[; ;./user.h: 188: unsigned long tmr_line_tst_set = 0;
 [v _tmr_line_tst_set `ul ~T0 @X0 1 e ]
 [i _tmr_line_tst_set
 -> -> -> 0 `i `l `ul
 ]
-"190
-[; ;./user.h: 190: unsigned char line_test_on = 0;
+"189
+[; ;./user.h: 189: unsigned char line_test_on = 0;
 [v _line_test_on `uc ~T0 @X0 1 e ]
 [i _line_test_on
 -> -> 0 `i `uc
 ]
-"192
-[; ;./user.h: 192: unsigned int pwr_tmr = 0;
+"191
+[; ;./user.h: 191: unsigned int pwr_tmr = 0;
 [v _pwr_tmr `ui ~T0 @X0 1 e ]
 [i _pwr_tmr
 -> -> 0 `i `ui
 ]
-"193
-[; ;./user.h: 193: unsigned int pwr_fast_check = 0;
+"192
+[; ;./user.h: 192: unsigned int pwr_fast_check = 0;
 [v _pwr_fast_check `ui ~T0 @X0 1 e ]
 [i _pwr_fast_check
 -> -> 0 `i `ui
 ]
-"194
-[; ;./user.h: 194: unsigned long line_fast_check = 0;
+"193
+[; ;./user.h: 193: unsigned long line_fast_check = 0;
 [v _line_fast_check `ul ~T0 @X0 1 e ]
 [i _line_fast_check
 -> -> -> 0 `i `l `ul
 ]
-"196
-[; ;./user.h: 196: unsigned char pwr_tst = 0;
+"195
+[; ;./user.h: 195: unsigned char pwr_tst = 0;
 [v _pwr_tst `uc ~T0 @X0 1 e ]
 [i _pwr_tst
 -> -> 0 `i `uc
 ]
-"197
-[; ;./user.h: 197: unsigned int em_call_tmr = 0;
+"196
+[; ;./user.h: 196: unsigned int em_call_tmr = 0;
 [v _em_call_tmr `ui ~T0 @X0 1 e ]
 [i _em_call_tmr
 -> -> 0 `i `ui
 ]
-"198
-[; ;./user.h: 198: unsigned int back_to_m_tmr = 0;
+"197
+[; ;./user.h: 197: unsigned int back_to_m_tmr = 0;
 [v _back_to_m_tmr `ui ~T0 @X0 1 e ]
 [i _back_to_m_tmr
 -> -> 0 `i `ui
 ]
-"200
-[; ;./user.h: 200: volatile unsigned char buzzer_silenced = 0;
+"199
+[; ;./user.h: 199: volatile unsigned char buzzer_silenced = 0;
 [v _buzzer_silenced `Vuc ~T0 @X0 1 e ]
 [i _buzzer_silenced
 -> -> 0 `i `uc
 ]
-"201
-[; ;./user.h: 201: volatile unsigned long buzzer_silence_tmr = 0;
+"200
+[; ;./user.h: 200: volatile unsigned long buzzer_silence_tmr = 0;
 [v _buzzer_silence_tmr `Vul ~T0 @X0 1 e ]
 [i _buzzer_silence_tmr
 -> -> -> 0 `i `l `ul
 ]
-"212
-[; ;./user.h: 212: unsigned int backlight_tmr = 0;
+"211
+[; ;./user.h: 211: unsigned int backlight_tmr = 0;
 [v _backlight_tmr `ui ~T0 @X0 1 e ]
 [i _backlight_tmr
 -> -> 0 `i `ui
 ]
-"228
-[; ;./user.h: 228: const MicThresholds mic1ThresholdsDefault = {
+"227
+[; ;./user.h: 227: const MicThresholds mic1ThresholdsDefault = {
 [v _mic1ThresholdsDefault `CS851 ~T0 @X0 1 e ]
 [i _mic1ThresholdsDefault
 :U ..
@@ -914,74 +908,74 @@ Version 4.0 HI-TECH Software Intermediate Code
 ..
 ..
 ]
-"243
-[; ;./user.h: 243: unsigned char m1 = 0;
+"242
+[; ;./user.h: 242: unsigned char m1 = 0;
 [v _m1 `uc ~T0 @X0 1 e ]
 [i _m1
 -> -> 0 `i `uc
 ]
-"244
-[; ;./user.h: 244: unsigned char m2 = 0;
+"243
+[; ;./user.h: 243: unsigned char m2 = 0;
 [v _m2 `uc ~T0 @X0 1 e ]
 [i _m2
 -> -> 0 `i `uc
 ]
-"245
-[; ;./user.h: 245: unsigned char m3 = 0;
+"244
+[; ;./user.h: 244: unsigned char m3 = 0;
 [v _m3 `uc ~T0 @X0 1 e ]
 [i _m3
 -> -> 0 `i `uc
 ]
-"246
-[; ;./user.h: 246: unsigned char m4 = 0;
+"245
+[; ;./user.h: 245: unsigned char m4 = 0;
 [v _m4 `uc ~T0 @X0 1 e ]
 [i _m4
 -> -> 0 `i `uc
 ]
-"248
-[; ;./user.h: 248: unsigned char contr = 0;
+"247
+[; ;./user.h: 247: unsigned char contr = 0;
 [v _contr `uc ~T0 @X0 1 e ]
 [i _contr
 -> -> 0 `i `uc
 ]
-"249
-[; ;./user.h: 249: unsigned char contr1 = 0;
+"248
+[; ;./user.h: 248: unsigned char contr1 = 0;
 [v _contr1 `uc ~T0 @X0 1 e ]
 [i _contr1
 -> -> 0 `i `uc
 ]
-"250
-[; ;./user.h: 250: unsigned char m_a = 0;
+"249
+[; ;./user.h: 249: unsigned char m_a = 0;
 [v _m_a `uc ~T0 @X0 1 e ]
 [i _m_a
 -> -> 0 `i `uc
 ]
-"251
-[; ;./user.h: 251: unsigned char rs_ = 0;
+"250
+[; ;./user.h: 250: unsigned char rs_ = 0;
 [v _rs_ `uc ~T0 @X0 1 e ]
 [i _rs_
 -> -> 0 `i `uc
 ]
-"252
-[; ;./user.h: 252: unsigned char m_t = 0;
+"251
+[; ;./user.h: 251: unsigned char m_t = 0;
 [v _m_t `uc ~T0 @X0 1 e ]
 [i _m_t
 -> -> 0 `i `uc
 ]
-"254
-[; ;./user.h: 254: unsigned char aud = 0;
+"253
+[; ;./user.h: 253: unsigned char aud = 0;
 [v _aud `uc ~T0 @X0 1 e ]
 [i _aud
 -> -> 0 `i `uc
 ]
-"256
-[; ;./user.h: 256: unsigned char debug_screen = 0;
+"255
+[; ;./user.h: 255: unsigned char debug_screen = 0;
 [v _debug_screen `uc ~T0 @X0 1 e ]
 [i _debug_screen
 -> -> 0 `i `uc
 ]
-"258
-[; ;./user.h: 258: char w,choise,end,end2,yes,no,x;
+"257
+[; ;./user.h: 257: char w,choise,end,end2,yes,no,x;
 [v _w `uc ~T0 @X0 1 e ]
 [v _choise `uc ~T0 @X0 1 e ]
 [v _end `uc ~T0 @X0 1 e ]
@@ -989,379 +983,379 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _yes `uc ~T0 @X0 1 e ]
 [v _no `uc ~T0 @X0 1 e ]
 [v _x `uc ~T0 @X0 1 e ]
-"265
-[; ;./user.h: 265: struct zone counter[20];
+"264
+[; ;./user.h: 264: struct zone counter[20];
 [v _counter `S852 ~T0 @X0 -> 20 `i e ]
-"316
-[; ;./user.h: 316:     unsigned char one_step1 = 0;
+"315
+[; ;./user.h: 315:     unsigned char one_step1 = 0;
 [v _one_step1 `uc ~T0 @X0 1 e ]
 [i _one_step1
 -> -> 0 `i `uc
 ]
-"317
-[; ;./user.h: 317:     unsigned char one_step2 = 0;
+"316
+[; ;./user.h: 316:     unsigned char one_step2 = 0;
 [v _one_step2 `uc ~T0 @X0 1 e ]
 [i _one_step2
 -> -> 0 `i `uc
 ]
-"318
-[; ;./user.h: 318: unsigned char mic1_err_scr = 0;
+"317
+[; ;./user.h: 317: unsigned char mic1_err_scr = 0;
 [v _mic1_err_scr `uc ~T0 @X0 1 e ]
 [i _mic1_err_scr
 -> -> 0 `i `uc
 ]
-"319
-[; ;./user.h: 319: unsigned char mic2_err_scr = 0;
+"318
+[; ;./user.h: 318: unsigned char mic2_err_scr = 0;
 [v _mic2_err_scr `uc ~T0 @X0 1 e ]
 [i _mic2_err_scr
 -> -> 0 `i `uc
 ]
-"324
-[; ;./user.h: 324: unsigned char all_alarms = 0;
+"323
+[; ;./user.h: 323: unsigned char all_alarms = 0;
 [v _all_alarms `uc ~T0 @X0 1 e ]
 [i _all_alarms
 -> -> 0 `i `uc
 ]
-"327
-[; ;./user.h: 327: unsigned char mic3_cut = 0;
+"326
+[; ;./user.h: 326: unsigned char mic3_cut = 0;
 [v _mic3_cut `uc ~T0 @X0 1 e ]
 [i _mic3_cut
 -> -> 0 `i `uc
 ]
-"329
-[; ;./user.h: 329: unsigned char em_call = 0;
+"328
+[; ;./user.h: 328: unsigned char em_call = 0;
 [v _em_call `uc ~T0 @X0 1 e ]
 [i _em_call
 -> -> 0 `i `uc
 ]
-"331
-[; ;./user.h: 331: int Mic1_adcValue = 0;
+"330
+[; ;./user.h: 330: int Mic1_adcValue = 0;
 [v _Mic1_adcValue `i ~T0 @X0 1 e ]
 [i _Mic1_adcValue
 -> 0 `i
 ]
-"332
-[; ;./user.h: 332: int Mic2_adcValue = 0;
+"331
+[; ;./user.h: 331: int Mic2_adcValue = 0;
 [v _Mic2_adcValue `i ~T0 @X0 1 e ]
 [i _Mic2_adcValue
 -> 0 `i
 ]
-"336
-[; ;./user.h: 336: int statePTT1 = 0;
+"335
+[; ;./user.h: 335: int statePTT1 = 0;
 [v _statePTT1 `i ~T0 @X0 1 e ]
 [i _statePTT1
 -> 0 `i
 ]
-"337
-[; ;./user.h: 337: int PTT2 = 0;
+"336
+[; ;./user.h: 336: int PTT2 = 0;
 [v _PTT2 `i ~T0 @X0 1 e ]
 [i _PTT2
 -> 0 `i
 ]
-"339
-[; ;./user.h: 339: char vol_set1 = 0;
+"338
+[; ;./user.h: 338: char vol_set1 = 0;
 [v _vol_set1 `uc ~T0 @X0 1 e ]
 [i _vol_set1
 -> -> 0 `i `uc
 ]
-"340
-[; ;./user.h: 340: char vol_set2 = 0;
+"339
+[; ;./user.h: 339: char vol_set2 = 0;
 [v _vol_set2 `uc ~T0 @X0 1 e ]
 [i _vol_set2
 -> -> 0 `i `uc
 ]
-"341
-[; ;./user.h: 341: char vol_set3 = 0;
+"340
+[; ;./user.h: 340: char vol_set3 = 0;
 [v _vol_set3 `uc ~T0 @X0 1 e ]
 [i _vol_set3
 -> -> 0 `i `uc
 ]
-"343
-[; ;./user.h: 343: char mic1_short = 0;
+"342
+[; ;./user.h: 342: char mic1_short = 0;
 [v _mic1_short `uc ~T0 @X0 1 e ]
 [i _mic1_short
 -> -> 0 `i `uc
 ]
-"344
-[; ;./user.h: 344: char mic2_short = 0;
+"343
+[; ;./user.h: 343: char mic2_short = 0;
 [v _mic2_short `uc ~T0 @X0 1 e ]
 [i _mic2_short
 -> -> 0 `i `uc
 ]
-"345
-[; ;./user.h: 345: char mic3_short = 0;
+"344
+[; ;./user.h: 344: char mic3_short = 0;
 [v _mic3_short `uc ~T0 @X0 1 e ]
 [i _mic3_short
 -> -> 0 `i `uc
 ]
-"347
-[; ;./user.h: 347: char mic1_cut = 0;
+"346
+[; ;./user.h: 346: char mic1_cut = 0;
 [v _mic1_cut `uc ~T0 @X0 1 e ]
 [i _mic1_cut
 -> -> 0 `i `uc
 ]
-"348
-[; ;./user.h: 348: char mic2_cut = 0;
+"347
+[; ;./user.h: 347: char mic2_cut = 0;
 [v _mic2_cut `uc ~T0 @X0 1 e ]
 [i _mic2_cut
 -> -> 0 `i `uc
 ]
-"351
-[; ;./user.h: 351: unsigned char press1 = 0;
+"350
+[; ;./user.h: 350: unsigned char press1 = 0;
 [v _press1 `uc ~T0 @X0 1 e ]
 [i _press1
 -> -> 0 `i `uc
 ]
-"352
-[; ;./user.h: 352: unsigned char press2 = 0;
+"351
+[; ;./user.h: 351: unsigned char press2 = 0;
 [v _press2 `uc ~T0 @X0 1 e ]
 [i _press2
 -> -> 0 `i `uc
 ]
-"353
-[; ;./user.h: 353: unsigned char press3 = 0;
+"352
+[; ;./user.h: 352: unsigned char press3 = 0;
 [v _press3 `uc ~T0 @X0 1 e ]
 [i _press3
 -> -> 0 `i `uc
 ]
-"354
-[; ;./user.h: 354: unsigned char press4 = 0;
+"353
+[; ;./user.h: 353: unsigned char press4 = 0;
 [v _press4 `uc ~T0 @X0 1 e ]
 [i _press4
 -> -> 0 `i `uc
 ]
-"355
-[; ;./user.h: 355: unsigned char press_all = 0;
+"354
+[; ;./user.h: 354: unsigned char press_all = 0;
 [v _press_all `uc ~T0 @X0 1 e ]
 [i _press_all
 -> -> 0 `i `uc
 ]
-"357
-[; ;./user.h: 357: unsigned char mic1_not_prs = 0;
+"356
+[; ;./user.h: 356: unsigned char mic1_not_prs = 0;
 [v _mic1_not_prs `uc ~T0 @X0 1 e ]
 [i _mic1_not_prs
 -> -> 0 `i `uc
 ]
-"358
-[; ;./user.h: 358: unsigned char mic2_not_prs = 0;
+"357
+[; ;./user.h: 357: unsigned char mic2_not_prs = 0;
 [v _mic2_not_prs `uc ~T0 @X0 1 e ]
 [i _mic2_not_prs
 -> -> 0 `i `uc
 ]
-"360
-[; ;./user.h: 360: unsigned char clr1 = 0;
+"359
+[; ;./user.h: 359: unsigned char clr1 = 0;
 [v _clr1 `uc ~T0 @X0 1 e ]
 [i _clr1
 -> -> 0 `i `uc
 ]
-"361
-[; ;./user.h: 361: unsigned char clr2 = 0;
+"360
+[; ;./user.h: 360: unsigned char clr2 = 0;
 [v _clr2 `uc ~T0 @X0 1 e ]
 [i _clr2
 -> -> 0 `i `uc
 ]
-"362
-[; ;./user.h: 362: unsigned char clr3 = 0;
+"361
+[; ;./user.h: 361: unsigned char clr3 = 0;
 [v _clr3 `uc ~T0 @X0 1 e ]
 [i _clr3
 -> -> 0 `i `uc
 ]
-"364
-[; ;./user.h: 364: unsigned char msg_press1 = 0;
+"363
+[; ;./user.h: 363: unsigned char msg_press1 = 0;
 [v _msg_press1 `uc ~T0 @X0 1 e ]
 [i _msg_press1
 -> -> 0 `i `uc
 ]
-"365
-[; ;./user.h: 365: unsigned char msg_press2 = 0;
+"364
+[; ;./user.h: 364: unsigned char msg_press2 = 0;
 [v _msg_press2 `uc ~T0 @X0 1 e ]
 [i _msg_press2
 -> -> 0 `i `uc
 ]
-"366
-[; ;./user.h: 366: unsigned char msg_press3 = 0;
+"365
+[; ;./user.h: 365: unsigned char msg_press3 = 0;
 [v _msg_press3 `uc ~T0 @X0 1 e ]
 [i _msg_press3
 -> -> 0 `i `uc
 ]
-"367
-[; ;./user.h: 367: unsigned char msg_press4 = 0;
+"366
+[; ;./user.h: 366: unsigned char msg_press4 = 0;
 [v _msg_press4 `uc ~T0 @X0 1 e ]
 [i _msg_press4
 -> -> 0 `i `uc
 ]
-"368
-[; ;./user.h: 368: unsigned char msg_press5 = 0;
+"367
+[; ;./user.h: 367: unsigned char msg_press5 = 0;
 [v _msg_press5 `uc ~T0 @X0 1 e ]
 [i _msg_press5
 -> -> 0 `i `uc
 ]
-"369
-[; ;./user.h: 369: unsigned char msg_press6 = 0;
+"368
+[; ;./user.h: 368: unsigned char msg_press6 = 0;
 [v _msg_press6 `uc ~T0 @X0 1 e ]
 [i _msg_press6
 -> -> 0 `i `uc
 ]
-"371
-[; ;./user.h: 371: unsigned int lastMessagePlayed = 0;
+"370
+[; ;./user.h: 370: unsigned int lastMessagePlayed = 0;
 [v _lastMessagePlayed `ui ~T0 @X0 1 e ]
 [i _lastMessagePlayed
 -> -> 0 `i `ui
 ]
-"372
-[; ;./user.h: 372: unsigned char shift_mic1_mode = 0;
+"371
+[; ;./user.h: 371: unsigned char shift_mic1_mode = 0;
 [v _shift_mic1_mode `uc ~T0 @X0 1 e ]
 [i _shift_mic1_mode
 -> -> 0 `i `uc
 ]
-"427
-[; ;./user.h: 427: char scr_buff[16];
+"426
+[; ;./user.h: 426: char scr_buff[16];
 [v _scr_buff `uc ~T0 @X0 -> 16 `i e ]
-"435
-[; ;./user.h: 435: unsigned char blink_en = 0;
+"434
+[; ;./user.h: 434: unsigned char blink_en = 0;
 [v _blink_en `uc ~T0 @X0 1 e ]
 [i _blink_en
 -> -> 0 `i `uc
 ]
-"439
-[; ;./user.h: 439: unsigned char all_errors1 = 0;
+"438
+[; ;./user.h: 438: unsigned char all_errors1 = 0;
 [v _all_errors1 `uc ~T0 @X0 1 e ]
 [i _all_errors1
 -> -> 0 `i `uc
 ]
-"446
-[; ;./user.h: 446: unsigned char sp_errors = 0;
+"445
+[; ;./user.h: 445: unsigned char sp_errors = 0;
 [v _sp_errors `uc ~T0 @X0 1 e ]
 [i _sp_errors
 -> -> 0 `i `uc
 ]
-"451
-[; ;./user.h: 451:     unsigned char p1=0;
+"450
+[; ;./user.h: 450:     unsigned char p1=0;
 [v _p1 `uc ~T0 @X0 1 e ]
 [i _p1
 -> -> 0 `i `uc
 ]
-"452
-[; ;./user.h: 452:     unsigned char p2=0;
+"451
+[; ;./user.h: 451:     unsigned char p2=0;
 [v _p2 `uc ~T0 @X0 1 e ]
 [i _p2
 -> -> 0 `i `uc
 ]
-"454
-[; ;./user.h: 454:     unsigned char p3 = 0;
+"453
+[; ;./user.h: 453:     unsigned char p3 = 0;
 [v _p3 `uc ~T0 @X0 1 e ]
 [i _p3
 -> -> 0 `i `uc
 ]
-"455
-[; ;./user.h: 455:     unsigned char p4 = 0;
+"454
+[; ;./user.h: 454:     unsigned char p4 = 0;
 [v _p4 `uc ~T0 @X0 1 e ]
 [i _p4
 -> -> 0 `i `uc
 ]
-"456
-[; ;./user.h: 456:     unsigned char p5 = 0;
+"455
+[; ;./user.h: 455:     unsigned char p5 = 0;
 [v _p5 `uc ~T0 @X0 1 e ]
 [i _p5
 -> -> 0 `i `uc
 ]
-"457
-[; ;./user.h: 457:     unsigned char p6 = 0;
+"456
+[; ;./user.h: 456:     unsigned char p6 = 0;
 [v _p6 `uc ~T0 @X0 1 e ]
 [i _p6
 -> -> 0 `i `uc
 ]
-"459
-[; ;./user.h: 459:     unsigned char a = 0;
+"458
+[; ;./user.h: 458:     unsigned char a = 0;
 [v _a `uc ~T0 @X0 1 e ]
 [i _a
 -> -> 0 `i `uc
 ]
-"460
-[; ;./user.h: 460:     unsigned char b = 0;
+"459
+[; ;./user.h: 459:     unsigned char b = 0;
 [v _b `uc ~T0 @X0 1 e ]
 [i _b
 -> -> 0 `i `uc
 ]
-"461
-[; ;./user.h: 461:     unsigned char c = 0;
+"460
+[; ;./user.h: 460:     unsigned char c = 0;
 [v _c `uc ~T0 @X0 1 e ]
 [i _c
 -> -> 0 `i `uc
 ]
-"462
-[; ;./user.h: 462:     unsigned char d = 0;
+"461
+[; ;./user.h: 461:     unsigned char d = 0;
 [v _d `uc ~T0 @X0 1 e ]
 [i _d
 -> -> 0 `i `uc
 ]
-"463
-[; ;./user.h: 463:     unsigned char exit_menu = 0;
+"462
+[; ;./user.h: 462:     unsigned char exit_menu = 0;
 [v _exit_menu `uc ~T0 @X0 1 e ]
 [i _exit_menu
 -> -> 0 `i `uc
 ]
-"540
-[; ;./user.h: 540: ConfigData config;
+"539
+[; ;./user.h: 539: ConfigData config;
 [v _config `S853 ~T0 @X0 1 e ]
-"576
-[; ;./user.h: 576: volatile unsigned char rx_buffer[5];
+"575
+[; ;./user.h: 575: volatile unsigned char rx_buffer[5];
 [v _rx_buffer `Vuc ~T0 @X0 -> 5 `i e ]
-"577
-[; ;./user.h: 577: volatile unsigned char rx_index = 0;
+"576
+[; ;./user.h: 576: volatile unsigned char rx_index = 0;
 [v _rx_index `Vuc ~T0 @X0 1 e ]
 [i _rx_index
 -> -> 0 `i `uc
 ]
-"578
-[; ;./user.h: 578: volatile unsigned char data_ready = 0;
+"577
+[; ;./user.h: 577: volatile unsigned char data_ready = 0;
 [v _data_ready `Vuc ~T0 @X0 1 e ]
 [i _data_ready
 -> -> 0 `i `uc
 ]
-"579
-[; ;./user.h: 579: volatile uint8_t response_sent = 0;
+"578
+[; ;./user.h: 578: volatile uint8_t response_sent = 0;
 [v _response_sent `Vuc ~T0 @X0 1 e ]
 [i _response_sent
 -> -> 0 `i `uc
 ]
-"581
-[; ;./user.h: 581: unsigned char current_slave = 1;
+"580
+[; ;./user.h: 580: unsigned char current_slave = 1;
 [v _current_slave `uc ~T0 @X0 1 e ]
 [i _current_slave
 -> -> 1 `i `uc
 ]
-"582
-[; ;./user.h: 582: unsigned char success = 0;
+"581
+[; ;./user.h: 581: unsigned char success = 0;
 [v _success `uc ~T0 @X0 1 e ]
 [i _success
 -> -> 0 `i `uc
 ]
-"583
-[; ;./user.h: 583: unsigned char rs_data = 0;
+"582
+[; ;./user.h: 582: unsigned char rs_data = 0;
 [v _rs_data `uc ~T0 @X0 1 e ]
 [i _rs_data
 -> -> 0 `i `uc
 ]
-"584
-[; ;./user.h: 584: unsigned char rs_tmr_on = 0;
+"583
+[; ;./user.h: 583: unsigned char rs_tmr_on = 0;
 [v _rs_tmr_on `uc ~T0 @X0 1 e ]
 [i _rs_tmr_on
 -> -> 0 `i `uc
 ]
-"585
-[; ;./user.h: 585: unsigned int rc_time = 0;
+"584
+[; ;./user.h: 584: unsigned int rc_time = 0;
 [v _rc_time `ui ~T0 @X0 1 e ]
 [i _rc_time
 -> -> 0 `i `ui
 ]
-"612
-[; ;./user.h: 612: unsigned char packet[5];
+"611
+[; ;./user.h: 611: unsigned char packet[5];
 [v _packet `uc ~T0 @X0 -> 5 `i e ]
-[v F6332 `Cuc ~T0 @X0 -> 5 `i t ]
+[v F6329 `Cuc ~T0 @X0 -> 5 `i t ]
 "2 ./LCD_ST7565.h
 [; ;./LCD_ST7565.h: 2: static const char lcd_font[][5] =
-[v _lcd_font `F6332 ~T0 @X0 -> 93 `i s ]
+[v _lcd_font `F6329 ~T0 @X0 -> 93 `i s ]
 [i _lcd_font
 :U ..
 :U ..
@@ -9677,9 +9671,33 @@ Version 4.0 HI-TECH Software Intermediate Code
 ]
 "1014
 [; ;./logos.h: 1014: const unsigned char _audio_50[]={
-[v __audio_50 `Cuc ~T0 @X0 -> 50 `i e ]
+[v __audio_50 `Cuc ~T0 @X0 -> 80 `i e ]
 [i __audio_50
 :U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
 -> -> 0 `i `uc
 -> -> 0 `i `uc
 -> -> 0 `i `uc
@@ -9730,10 +9748,16 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 70 `i `uc
 -> -> 0 `i `uc
 -> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
 ..
 ]
-"1022
-[; ;./logos.h: 1022: const unsigned char _audio_70[]={
+"1023
+[; ;./logos.h: 1023: const unsigned char _audio_70[]={
 [v __audio_70 `Cuc ~T0 @X0 -> 70 `i e ]
 [i __audio_70
 :U ..
@@ -9809,8 +9833,95 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1032
-[; ;./logos.h: 1032: const unsigned char _back[]={
+"1031
+[; ;./logos.h: 1031: const unsigned char _mic_set_80[]={
+[v __mic_set_80 `Cuc ~T0 @X0 -> 80 `i e ]
+[i __mic_set_80
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 6 `i `uc
+-> -> 68 `i `uc
+-> -> 68 `i `uc
+-> -> 100 `i `uc
+-> -> 60 `i `uc
+-> -> 0 `i `uc
+-> -> 124 `i `uc
+-> -> 0 `i `uc
+-> -> 12 `i `uc
+-> -> 0 `i `uc
+-> -> 68 `i `uc
+-> -> 68 `i `uc
+-> -> 68 `i `uc
+-> -> 56 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+..
+]
+"1041
+[; ;./logos.h: 1041: const unsigned char _back[]={
 [v __back `Cuc ~T0 @X0 -> 9 `i e ]
 [i __back
 :U ..
@@ -9825,8 +9936,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1036
-[; ;./logos.h: 1036: const unsigned char _enter[]={
+"1045
+[; ;./logos.h: 1045: const unsigned char _enter[]={
 [v __enter `Cuc ~T0 @X0 -> 8 `i e ]
 [i __enter
 :U ..
@@ -9840,8 +9951,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1041
-[; ;./logos.h: 1041: const unsigned char _up[]={
+"1050
+[; ;./logos.h: 1050: const unsigned char _up[]={
 [v __up `Cuc ~T0 @X0 -> 9 `i e ]
 [i __up
 :U ..
@@ -9856,8 +9967,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1046
-[; ;./logos.h: 1046: const unsigned char _down[]={
+"1055
+[; ;./logos.h: 1055: const unsigned char _down[]={
 [v __down `Cuc ~T0 @X0 -> 9 `i e ]
 [i __down
 :U ..
@@ -9872,8 +9983,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1053
-[; ;./logos.h: 1053: const unsigned char dry_menu_1_HE[]= {
+"1062
+[; ;./logos.h: 1062: const unsigned char dry_menu_1_HE[]= {
 [v _dry_menu_1_HE `Cuc ~T0 @X0 -> 1024 `i e ]
 [i _dry_menu_1_HE
 :U ..
@@ -10903,8 +11014,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1128
-[; ;./logos.h: 1128: const unsigned char dry_menu_2_HE[]= {
+"1137
+[; ;./logos.h: 1137: const unsigned char dry_menu_2_HE[]= {
 [v _dry_menu_2_HE `Cuc ~T0 @X0 -> 1024 `i e ]
 [i _dry_menu_2_HE
 :U ..
@@ -11934,8 +12045,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1202
-[; ;./logos.h: 1202: const unsigned char dry_menu_3_HE[]= {
+"1211
+[; ;./logos.h: 1211: const unsigned char dry_menu_3_HE[]= {
 [v _dry_menu_3_HE `Cuc ~T0 @X0 -> 1024 `i e ]
 [i _dry_menu_3_HE
 :U ..
@@ -12965,8 +13076,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1276
-[; ;./logos.h: 1276: const unsigned char dry_menu_4_HE[]= {
+"1285
+[; ;./logos.h: 1285: const unsigned char dry_menu_4_HE[]= {
 [v _dry_menu_4_HE `Cuc ~T0 @X0 -> 1024 `i e ]
 [i _dry_menu_4_HE
 :U ..
@@ -13996,8 +14107,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1350
-[; ;./logos.h: 1350: const unsigned char msg_1_HE[]= {
+"1359
+[; ;./logos.h: 1359: const unsigned char msg_1_HE[]= {
 [v _msg_1_HE `Cuc ~T0 @X0 -> 32 `i e ]
 [i _msg_1_HE
 :U ..
@@ -14035,8 +14146,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1355
-[; ;./logos.h: 1355: const unsigned char msg_2_HE[]= {
+"1364
+[; ;./logos.h: 1364: const unsigned char msg_2_HE[]= {
 [v _msg_2_HE `Cuc ~T0 @X0 -> 32 `i e ]
 [i _msg_2_HE
 :U ..
@@ -14074,8 +14185,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1360
-[; ;./logos.h: 1360: const unsigned char msg_3_HE[]= {
+"1369
+[; ;./logos.h: 1369: const unsigned char msg_3_HE[]= {
 [v _msg_3_HE `Cuc ~T0 @X0 -> 32 `i e ]
 [i _msg_3_HE
 :U ..
@@ -14113,8 +14224,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1365
-[; ;./logos.h: 1365: const unsigned char msg_4_HE[]= {
+"1374
+[; ;./logos.h: 1374: const unsigned char msg_4_HE[]= {
 [v _msg_4_HE `Cuc ~T0 @X0 -> 32 `i e ]
 [i _msg_4_HE
 :U ..
@@ -14152,8 +14263,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1370
-[; ;./logos.h: 1370: const unsigned char msg_5_HE[]= {
+"1379
+[; ;./logos.h: 1379: const unsigned char msg_5_HE[]= {
 [v _msg_5_HE `Cuc ~T0 @X0 -> 32 `i e ]
 [i _msg_5_HE
 :U ..
@@ -14191,8 +14302,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1375
-[; ;./logos.h: 1375: const unsigned char a_in_HE[]= {
+"1384
+[; ;./logos.h: 1384: const unsigned char a_in_HE[]= {
 [v _a_in_HE `Cuc ~T0 @X0 -> 32 `i e ]
 [i _a_in_HE
 :U ..
@@ -14230,8 +14341,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1382
-[; ;./logos.h: 1382: const unsigned char Malfunction_HE_34[]={
+"1391
+[; ;./logos.h: 1391: const unsigned char Malfunction_HE_34[]={
 [v _Malfunction_HE_34 `Cuc ~T0 @X0 -> 51 `i e ]
 [i _Malfunction_HE_34
 :U ..
@@ -14288,8 +14399,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1403
-[; ;./logos.h: 1403: const unsigned char _sp1_line_open_HE[] = {
+"1412
+[; ;./logos.h: 1412: const unsigned char _sp1_line_open_HE[] = {
 [v __sp1_line_open_HE `Cuc ~T0 @X0 -> 46 `i e ]
 [i __sp1_line_open_HE
 :U ..
@@ -14341,8 +14452,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1421
-[; ;./logos.h: 1421: const unsigned char _sp1_line_short_HE[] = {
+"1430
+[; ;./logos.h: 1430: const unsigned char _sp1_line_short_HE[] = {
 [v __sp1_line_short_HE `Cuc ~T0 @X0 -> 46 `i e ]
 [i __sp1_line_short_HE
 :U ..
@@ -14394,8 +14505,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1439
-[; ;./logos.h: 1439: const unsigned char _sp1_Line_GND_HE[]={
+"1448
+[; ;./logos.h: 1448: const unsigned char _sp1_Line_GND_HE[]={
 [v __sp1_Line_GND_HE `Cuc ~T0 @X0 -> 87 `i e ]
 [i __sp1_Line_GND_HE
 :U ..
@@ -14488,8 +14599,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1462
-[; ;./logos.h: 1462: const unsigned char _sp2_line_open_HE[] = {
+"1471
+[; ;./logos.h: 1471: const unsigned char _sp2_line_open_HE[] = {
 [v __sp2_line_open_HE `Cuc ~T0 @X0 -> 45 `i e ]
 [i __sp2_line_open_HE
 :U ..
@@ -14540,8 +14651,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1480
-[; ;./logos.h: 1480: const unsigned char _sp2_line_short_HE[] = {
+"1489
+[; ;./logos.h: 1489: const unsigned char _sp2_line_short_HE[] = {
 [v __sp2_line_short_HE `Cuc ~T0 @X0 -> 46 `i e ]
 [i __sp2_line_short_HE
 :U ..
@@ -14593,8 +14704,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1498
-[; ;./logos.h: 1498: const unsigned char _sp2_Line_GND_HE[]={
+"1507
+[; ;./logos.h: 1507: const unsigned char _sp2_Line_GND_HE[]={
 [v __sp2_Line_GND_HE `Cuc ~T0 @X0 -> 87 `i e ]
 [i __sp2_Line_GND_HE
 :U ..
@@ -14687,8 +14798,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1522
-[; ;./logos.h: 1522: const unsigned char rs_70[]={
+"1531
+[; ;./logos.h: 1531: const unsigned char rs_70[]={
 [v _rs_70 `Cuc ~T0 @X0 -> 70 `i e ]
 [i _rs_70
 :U ..
@@ -14764,8 +14875,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1531
-[; ;./logos.h: 1531: const unsigned char addr_34[]={
+"1540
+[; ;./logos.h: 1540: const unsigned char addr_34[]={
 [v _addr_34 `Cuc ~T0 @X0 -> 34 `i e ]
 [i _addr_34
 :U ..
@@ -14805,8 +14916,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1579
-[; ;./logos.h: 1579: const unsigned char ac_error_[] = {
+"1588
+[; ;./logos.h: 1588: const unsigned char ac_error_[] = {
 [v _ac_error_ `Cuc ~T0 @X0 -> 84 `i e ]
 [i _ac_error_
 :U ..
@@ -14896,8 +15007,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1592
-[; ;./logos.h: 1592: const unsigned char dc_error_[] = {
+"1601
+[; ;./logos.h: 1601: const unsigned char dc_error_[] = {
 [v _dc_error_ `Cuc ~T0 @X0 -> 65 `i e ]
 [i _dc_error_
 :U ..
@@ -14968,8 +15079,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1605
-[; ;./logos.h: 1605: const unsigned char msg_error_[] = {
+"1614
+[; ;./logos.h: 1614: const unsigned char msg_error_[] = {
 [v _msg_error_ `Cuc ~T0 @X0 -> 55 `i e ]
 [i _msg_error_
 :U ..
@@ -15030,8 +15141,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1612
-[; ;./logos.h: 1612: const unsigned char amp_error_[] = {
+"1621
+[; ;./logos.h: 1621: const unsigned char amp_error_[] = {
 [v _amp_error_ `Cuc ~T0 @X0 -> 34 `i e ]
 [i _amp_error_
 :U ..
@@ -15071,8 +15182,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1618
-[; ;./logos.h: 1618: const unsigned char eds_30[] = {
+"1627
+[; ;./logos.h: 1627: const unsigned char eds_30[] = {
 [v _eds_30 `Cuc ~T0 @X0 -> 37 `i e ]
 [i _eds_30
 :U ..
@@ -15115,8 +15226,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1625
-[; ;./logos.h: 1625: const unsigned char eds_30D[] = {
+"1634
+[; ;./logos.h: 1634: const unsigned char eds_30D[] = {
 [v _eds_30D `Cuc ~T0 @X0 -> 48 `i e ]
 [i _eds_30D
 :U ..
@@ -15170,8 +15281,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1632
-[; ;./logos.h: 1632: const unsigned char erase_menu[] = {
+"1641
+[; ;./logos.h: 1641: const unsigned char erase_menu[] = {
 [v _erase_menu `Cuc ~T0 @X0 -> 1024 `i e ]
 [i _erase_menu
 :U ..
