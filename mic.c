@@ -256,7 +256,7 @@ void mic2_state(unsigned int PTT2){
 
 void mic3_state(unsigned int PTT3){
     
-        if (PTT3 == STATE_MIC_PRESET && press_all == 0) {
+    if (PTT3 == STATE_MIC_PRESET && press3 == 0 && press_all == 0) {
                 
             if(vol_set3 == 0){
                 vol_set3 = 1;
@@ -267,8 +267,8 @@ void mic3_state(unsigned int PTT3){
         dry_c = 0;
         line_test_on = 1;
         tmr_line_tst = 0;
-        //press3 = 1;
-       // mic1_not_prs = 0;
+        press3 = 1;
+        mic3_not_prs = 0;
         m3_inv = 1;
         BACK_LIGHT = 1;
         all_alarms |= (1 << 5);
@@ -363,15 +363,6 @@ void mic3_state(unsigned int PTT3){
         shiftRegisterData &= ~((unsigned int)((1 << 2) | (1 << 3) | (1 << 4) |(1 << 5) | (1 << 6) | (1 << 7)));//shiftRegisterData &= ~((unsigned int)((1 << 2) | (1 << 3) | (1 << 4) |(1 << 5) | (1 << 6) | (1 << 7)));
                 
         if (config.mode == 1) {
-            
-            // Enable audio for MIC3/MIC1.
-            // Single channel: only left audio channel bit (bit0) is enabled.
-//            shiftRegisterData |= (1 << 0);
-//        } else if (config.mode == 2) {
-//            // Dual channel: both left and right (bit0 and bit1).
-//            shiftRegisterData |= ((1 << 0) | (1 << 1));
-            
-            // Enable audio for MIC3/MIC2.
           shiftRegisterData |= (1 << 2);
         } else if (config.mode == 2) {
             // Dual channel: both left and right (bit0 and bit1).
@@ -380,12 +371,16 @@ void mic3_state(unsigned int PTT3){
         zone1State = 1;
         zone2State = 1;
         
-    } else if (PTT3 == STATE_MIC_OK && press_all == 1) {
+    }else if(PTT3 == STATE_MIC_OK && mic3_not_prs == 0 &&  press_all == 0) {
         press_all = 0;
+        press3 = 0;
         mic3_cut = 0;
         mic3_short = 0;
         m3_inv = 1;
         vol_set3 = 0;
+        dry_c = 1;
+        line_test_on = 0;
+        mic3_not_prs = 1;
         all_errors1 &= ~(1 << 3);
         // Clear audio bits for MIC3/MIC1.
         if (config.mode == 1) {
@@ -402,17 +397,20 @@ void mic3_state(unsigned int PTT3){
     // MIC3 error handling
     if (PTT3 == STATE_MIC_CUT) {
         all_errors1 |= (1 << 3);
+        mic3_not_prs = 0;
         blink_en = 1;
         mic3_cut = 1;
     }
     if(PTT3 == STATE_MIC_SHORT){
         all_errors1 |= (1 << 3);
         blink_en = 1;
+        mic3_not_prs = 0;
         mic3_short = 1;
     }
     
        if(PTT3 == STATE_MIC_OFF){
             mic3_short = 0;
+            mic3_not_prs = 0;
             all_errors1 &= ~(1 << 3);
             blink_en = 0;
             mic3_cut = 0;

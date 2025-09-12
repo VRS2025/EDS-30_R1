@@ -1,7 +1,7 @@
 ### HEXMate logfile and output summary ###
 
 ### Command-line arguments ###
- C:\Users\vinok\AppData\Local\Temp\xcAsibo.\driver_tmp_3.o
+ C:\Users\vinok\AppData\Local\Temp\xcAsfec.\driver_tmp_3.o
  -Odist/default/production\EDS-30_R1.production.hex
  -logfile=dist/default/production\EDS-30_R1.production.hxl
  -addressing=1
@@ -9,23 +9,23 @@
 
 ### Memory Usage ###
  Input file ranges:
-  0h - 3h		(C:\Users\vinok\AppData\Local\Temp\xcAsibo.\driver_tmp_3.o)
-  8h - 6BE4h		(C:\Users\vinok\AppData\Local\Temp\xcAsibo.\driver_tmp_3.o)
-  6BE6h - 6E9Dh		(C:\Users\vinok\AppData\Local\Temp\xcAsibo.\driver_tmp_3.o)
-  9192h - FFFEh		(C:\Users\vinok\AppData\Local\Temp\xcAsibo.\driver_tmp_3.o)
-  200000h - 200007h		(C:\Users\vinok\AppData\Local\Temp\xcAsibo.\driver_tmp_3.o)
-  300000h - 30000Dh		(C:\Users\vinok\AppData\Local\Temp\xcAsibo.\driver_tmp_3.o)
+  0h - 3h		(C:\Users\vinok\AppData\Local\Temp\xcAsfec.\driver_tmp_3.o)
+  8h - 6C10h		(C:\Users\vinok\AppData\Local\Temp\xcAsfec.\driver_tmp_3.o)
+  6C12h - 6EC9h		(C:\Users\vinok\AppData\Local\Temp\xcAsfec.\driver_tmp_3.o)
+  9192h - FFFEh		(C:\Users\vinok\AppData\Local\Temp\xcAsfec.\driver_tmp_3.o)
+  200000h - 200007h		(C:\Users\vinok\AppData\Local\Temp\xcAsfec.\driver_tmp_3.o)
+  300000h - 30000Dh		(C:\Users\vinok\AppData\Local\Temp\xcAsfec.\driver_tmp_3.o)
  Unused ranges:
   4h - 7h
-  6BE5h - 6BE5h
-  6E9Eh - 9191h
+  6C11h - 6C11h
+  6ECAh - 9191h
   FFFFh - 1FFFFFh
   200008h - 2FFFFFh
 
 ### Hex Memory Map ###
  Legend:
   -- = Unused memory
-  H1 = Input file             (C:\Users\vinok\AppData\Local\Temp\xcAsibo.\driver_tmp_3.o)
+  H1 = Input file             (C:\Users\vinok\AppData\Local\Temp\xcAsfec.\driver_tmp_3.o)
 ----------------------------------------------------------
          | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
 ----------------------------------------------------------
@@ -1755,10 +1755,10 @@
 00006BB0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00006BC0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00006BD0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
-00006BE0 | H1 H1 H1 H1 H1 -- H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00006BE0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00006BF0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00006C00 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
-00006C10 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00006C10 | H1 -- H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00006C20 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00006C30 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00006C40 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
@@ -1798,7 +1798,10 @@
 00006E60 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00006E70 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00006E80 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
-00006E90 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 -- --
+00006E90 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00006EA0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00006EB0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00006EC0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 -- -- -- -- -- --
 ----------------------------------------------------------
 00009190 | -- -- H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 000091A0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1

@@ -355,6 +355,7 @@ unsigned char press_all = 0;
 
 unsigned char mic1_not_prs = 0;
 unsigned char mic2_not_prs = 0;
+unsigned char mic3_not_prs = 0;
 
 unsigned char clr1 = 0;
 unsigned char clr2 = 0;
