@@ -515,10 +515,6 @@ void main_icon_(unsigned char en){
  
         }
         
-        if(((all_alarms>> 5) & 1) == 1  && m1_inv == 0){
-             lcd_gotoxy(0, 7);
-             lcd_putstr(" M3 ", 1);            
-        }
     }
     // MIC2   5.7
     if(config.zone_sel2 == 3 || (all_errors1 >> 7) & 1) {
@@ -544,7 +540,23 @@ void main_icon_(unsigned char en){
            lcd_putstr(" IN2 ", 1);            
  
         }
+        if(((all_alarms>> 5) & 1) == 1  && m2_inv == 0){
+             lcd_gotoxy(24, 7);
+             lcd_putstr(" M3 ", 1);            
+        }
     }     
+    
+        //------------------------------------------------------------------
+
+    if ((config.zone_sel1 == 3 || (all_errors1 >> 5) & 1) && (config.zone_sel2 == 3 || (all_errors1 >> 7) & 1)) {   // M2 off
+        lcd_gotoxy(24, 7);   // ??????? ? ??????? M1
+        if(((all_alarms>> 5) & 1) != 1){
+        lcd_putstr(" M3 ", 0);
+        }else{
+            lcd_putstr(" M3 ", 1);
+        }
+    }
+    //------------------------------------------------------------------
     
     
         // MIC3   5.7

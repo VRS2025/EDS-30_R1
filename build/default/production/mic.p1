@@ -2286,12 +2286,148 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"41 ./logos.h
-[; ;./logos.h: 41: const unsigned char _logo_[] = {
+"267 ./logos.h
+[; ;./logos.h: 267: const unsigned char _logo_[] = {
 [v __logo_ `Cuc ~T0 @X0 -> 1024 `i e ]
 [i __logo_
 :U ..
 -> -> 0 `i `uc
+-> -> 192 `i `uc
+-> -> 240 `i `uc
+-> -> 56 `i `uc
+-> -> 28 `i `uc
+-> -> 14 `i `uc
+-> -> 14 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 134 `i `uc
+-> -> 134 `i `uc
+-> -> 134 `i `uc
+-> -> 134 `i `uc
+-> -> 14 `i `uc
+-> -> 14 `i `uc
+-> -> 28 `i `uc
+-> -> 120 `i `uc
+-> -> 224 `i `uc
+-> -> 128 `i `uc
+-> -> 0 `i `uc
+-> -> 252 `i `uc
+-> -> 255 `i `uc
+-> -> 1 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
 -> -> 0 `i `uc
 -> -> 0 `i `uc
 -> -> 0 `i `uc
@@ -2302,121 +2438,203 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 -> -> 0 `i `uc
 -> -> 128 `i `uc
--> -> 128 `i `uc
--> -> 192 `i `uc
--> -> 192 `i `uc
 -> -> 192 `i `uc
 -> -> 224 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 48 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 192 `i `uc
 -> -> 224 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
 -> -> 224 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
 -> -> 224 `i `uc
--> -> 224 `i `uc
--> -> 224 `i `uc
--> -> 224 `i `uc
--> -> 224 `i `uc
--> -> 224 `i `uc
--> -> 224 `i `uc
--> -> 224 `i `uc
--> -> 224 `i `uc
--> -> 224 `i `uc
--> -> 224 `i `uc
--> -> 224 `i `uc
--> -> 224 `i `uc
--> -> 224 `i `uc
--> -> 224 `i `uc
--> -> 224 `i `uc
--> -> 224 `i `uc
--> -> 224 `i `uc
--> -> 224 `i `uc
--> -> 224 `i `uc
--> -> 224 `i `uc
--> -> 224 `i `uc
--> -> 224 `i `uc
--> -> 224 `i `uc
--> -> 224 `i `uc
--> -> 224 `i `uc
--> -> 224 `i `uc
--> -> 224 `i `uc
--> -> 224 `i `uc
--> -> 224 `i `uc
--> -> 224 `i `uc
--> -> 224 `i `uc
--> -> 224 `i `uc
+-> -> 248 `i `uc
+-> -> 248 `i `uc
+-> -> 248 `i `uc
+-> -> 248 `i `uc
+-> -> 248 `i `uc
+-> -> 248 `i `uc
+-> -> 248 `i `uc
+-> -> 248 `i `uc
+-> -> 248 `i `uc
+-> -> 248 `i `uc
+-> -> 248 `i `uc
+-> -> 248 `i `uc
+-> -> 248 `i `uc
+-> -> 248 `i `uc
+-> -> 248 `i `uc
+-> -> 248 `i `uc
+-> -> 248 `i `uc
+-> -> 240 `i `uc
 -> -> 224 `i `uc
 -> -> 192 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 224 `i `uc
+-> -> 240 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 56 `i `uc
+-> -> 248 `i `uc
+-> -> 248 `i `uc
+-> -> 248 `i `uc
+-> -> 248 `i `uc
+-> -> 248 `i `uc
+-> -> 248 `i `uc
+-> -> 248 `i `uc
 -> -> 192 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 12 `i `uc
+-> -> 2 `i `uc
+-> -> 249 `i `uc
+-> -> 68 `i `uc
+-> -> 68 `i `uc
+-> -> 196 `i `uc
+-> -> 56 `i `uc
+-> -> 1 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 3 `i `uc
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
 -> -> 192 `i `uc
--> -> 128 `i `uc
--> -> 128 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
+-> -> 248 `i `uc
+-> -> 254 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 127 `i `uc
+-> -> 63 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 31 `i `uc
+-> -> 3 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 192 `i `uc
+-> -> 252 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 31 `i `uc
+-> -> 15 `i `uc
+-> -> 7 `i `uc
+-> -> 7 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 15 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 224 `i `uc
+-> -> 254 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 15 `i `uc
+-> -> 7 `i `uc
+-> -> 7 `i `uc
+-> -> 7 `i `uc
+-> -> 7 `i `uc
+-> -> 7 `i `uc
+-> -> 7 `i `uc
+-> -> 15 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
 -> -> 0 `i `uc
 -> -> 0 `i `uc
 -> -> 0 `i `uc
@@ -2426,899 +2644,681 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 -> -> 224 `i `uc
 -> -> 248 `i `uc
--> -> 124 `i `uc
--> -> 30 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 252 `i `uc
+-> -> 128 `i `uc
+-> -> 0 `i `uc
+-> -> 15 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 248 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 6 `i `uc
+-> -> 24 `i `uc
+-> -> 51 `i `uc
+-> -> 32 `i `uc
+-> -> 32 `i `uc
+-> -> 33 `i `uc
+-> -> 38 `i `uc
+-> -> 16 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 192 `i `uc
+-> -> 252 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 15 `i `uc
+-> -> 1 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 3 `i `uc
+-> -> 3 `i `uc
+-> -> 3 `i `uc
+-> -> 3 `i `uc
+-> -> 3 `i `uc
+-> -> 3 `i `uc
+-> -> 1 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 224 `i `uc
+-> -> 254 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 127 `i `uc
 -> -> 7 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 1 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 224 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 15 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 224 `i `uc
+-> -> 254 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 31 `i `uc
 -> -> 1 `i `uc
 -> -> 0 `i `uc
 -> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 192 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 63 `i `uc
+-> -> 7 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 128 `i `uc
+-> -> 224 `i `uc
+-> -> 252 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 127 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 3 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 224 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 224 `i `uc
+-> -> 254 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 127 `i `uc
+-> -> 15 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 192 `i `uc
+-> -> 192 `i `uc
+-> -> 192 `i `uc
+-> -> 192 `i `uc
+-> -> 192 `i `uc
+-> -> 192 `i `uc
 -> -> 64 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 224 `i `uc
+-> -> 254 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 63 `i `uc
+-> -> 3 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 224 `i `uc
+-> -> 254 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 127 `i `uc
+-> -> 7 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 240 `i `uc
+-> -> 254 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 243 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 248 `i `uc
+-> -> 252 `i `uc
+-> -> 254 `i `uc
+-> -> 255 `i `uc
+-> -> 127 `i `uc
+-> -> 63 `i `uc
+-> -> 31 `i `uc
+-> -> 15 `i `uc
+-> -> 3 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 128 `i `uc
+-> -> 240 `i `uc
+-> -> 252 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 143 `i `uc
+-> -> 129 `i `uc
+-> -> 128 `i `uc
+-> -> 128 `i `uc
+-> -> 128 `i `uc
+-> -> 128 `i `uc
+-> -> 128 `i `uc
+-> -> 223 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 252 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 224 `i `uc
+-> -> 224 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 112 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 224 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
 -> -> 224 `i `uc
 -> -> 192 `i `uc
+-> -> 192 `i `uc
+-> -> 224 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 112 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 112 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 128 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 224 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+-> -> 63 `i `uc
+-> -> 255 `i `uc
+-> -> 128 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 3 `i `uc
+-> -> 15 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 3 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 15 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 15 `i `uc
+-> -> 7 `i `uc
+-> -> 1 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 16 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 7 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
 -> -> 0 `i `uc
 -> -> 0 `i `uc
 -> -> 0 `i `uc
 -> -> 0 `i `uc
 -> -> 0 `i `uc
 -> -> 16 `i `uc
--> -> 248 `i `uc
--> -> 248 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 254 `i `uc
--> -> 252 `i `uc
--> -> 0 `i `uc
--> -> 32 `i `uc
--> -> 240 `i `uc
--> -> 240 `i `uc
--> -> 0 `i `uc
--> -> 8 `i `uc
--> -> 252 `i `uc
--> -> 248 `i `uc
--> -> 0 `i `uc
--> -> 252 `i `uc
--> -> 254 `i `uc
--> -> 252 `i `uc
--> -> 0 `i `uc
--> -> 128 `i `uc
--> -> 192 `i `uc
--> -> 128 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 1 `i `uc
--> -> 1 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 7 `i `uc
--> -> 30 `i `uc
--> -> 60 `i `uc
--> -> 248 `i `uc
--> -> 224 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 64 `i `uc
--> -> 72 `i `uc
--> -> 72 `i `uc
--> -> 72 `i `uc
--> -> 88 `i `uc
--> -> 0 `i `uc
--> -> 248 `i `uc
--> -> 248 `i `uc
--> -> 248 `i `uc
--> -> 248 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 224 `i `uc
--> -> 248 `i `uc
--> -> 248 `i `uc
--> -> 248 `i `uc
--> -> 88 `i `uc
--> -> 72 `i `uc
--> -> 72 `i `uc
--> -> 72 `i `uc
--> -> 216 `i `uc
--> -> 0 `i `uc
--> -> 248 `i `uc
--> -> 248 `i `uc
--> -> 248 `i `uc
--> -> 248 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 224 `i `uc
--> -> 248 `i `uc
--> -> 248 `i `uc
--> -> 248 `i `uc
--> -> 88 `i `uc
--> -> 72 `i `uc
--> -> 72 `i `uc
--> -> 72 `i `uc
--> -> 216 `i `uc
--> -> 8 `i `uc
--> -> 240 `i `uc
--> -> 248 `i `uc
--> -> 248 `i `uc
--> -> 248 `i `uc
--> -> 120 `i `uc
--> -> 120 `i `uc
--> -> 120 `i `uc
--> -> 248 `i `uc
--> -> 248 `i `uc
--> -> 240 `i `uc
--> -> 240 `i `uc
--> -> 192 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
 -> -> 30 `i `uc
 -> -> 31 `i `uc
 -> -> 31 `i `uc
--> -> 24 `i `uc
--> -> 24 `i `uc
--> -> 24 `i `uc
--> -> 24 `i `uc
--> -> 24 `i `uc
--> -> 24 `i `uc
--> -> 24 `i `uc
--> -> 24 `i `uc
--> -> 0 `i `uc
--> -> 128 `i `uc
--> -> 255 `i `uc
--> -> 255 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 255 `i `uc
--> -> 254 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 255 `i `uc
--> -> 255 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 255 `i `uc
--> -> 255 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 255 `i `uc
--> -> 255 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 255 `i `uc
--> -> 255 `i `uc
--> -> 0 `i `uc
--> -> 255 `i `uc
--> -> 255 `i `uc
--> -> 255 `i `uc
--> -> 0 `i `uc
--> -> 128 `i `uc
--> -> 255 `i `uc
--> -> 255 `i `uc
--> -> 0 `i `uc
--> -> 34 `i `uc
--> -> 127 `i `uc
--> -> 62 `i `uc
--> -> 0 `i `uc
--> -> 8 `i `uc
--> -> 24 `i `uc
--> -> 24 `i `uc
--> -> 24 `i `uc
--> -> 24 `i `uc
--> -> 24 `i `uc
--> -> 24 `i `uc
--> -> 24 `i `uc
--> -> 248 `i `uc
--> -> 248 `i `uc
--> -> 248 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 144 `i `uc
--> -> 146 `i `uc
--> -> 146 `i `uc
--> -> 146 `i `uc
--> -> 18 `i `uc
--> -> 192 `i `uc
--> -> 255 `i `uc
--> -> 255 `i `uc
--> -> 255 `i `uc
--> -> 127 `i `uc
--> -> 120 `i `uc
--> -> 120 `i `uc
--> -> 120 `i `uc
--> -> 120 `i `uc
--> -> 120 `i `uc
--> -> 248 `i `uc
--> -> 255 `i `uc
--> -> 255 `i `uc
--> -> 255 `i `uc
--> -> 31 `i `uc
--> -> 0 `i `uc
--> -> 18 `i `uc
--> -> 146 `i `uc
--> -> 146 `i `uc
--> -> 150 `i `uc
--> -> 150 `i `uc
--> -> 128 `i `uc
--> -> 255 `i `uc
--> -> 255 `i `uc
--> -> 255 `i `uc
--> -> 255 `i `uc
--> -> 128 `i `uc
--> -> 224 `i `uc
--> -> 252 `i `uc
--> -> 255 `i `uc
--> -> 127 `i `uc
--> -> 31 `i `uc
--> -> 3 `i `uc
--> -> 128 `i `uc
--> -> 146 `i `uc
--> -> 146 `i `uc
--> -> 146 `i `uc
--> -> 146 `i `uc
--> -> 2 `i `uc
--> -> 252 `i `uc
--> -> 255 `i `uc
--> -> 255 `i `uc
--> -> 255 `i `uc
--> -> 241 `i `uc
--> -> 240 `i `uc
--> -> 240 `i `uc
--> -> 248 `i `uc
--> -> 252 `i `uc
--> -> 127 `i `uc
--> -> 63 `i `uc
--> -> 31 `i `uc
--> -> 3 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 7 `i `uc
--> -> 15 `i `uc
--> -> 62 `i `uc
--> -> 120 `i `uc
--> -> 240 `i `uc
--> -> 224 `i `uc
--> -> 192 `i `uc
--> -> 128 `i `uc
--> -> 128 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 1 `i `uc
--> -> 1 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 8 `i `uc
 -> -> 31 `i `uc
 -> -> 31 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 63 `i `uc
--> -> 63 `i `uc
--> -> 0 `i `uc
--> -> 8 `i `uc
 -> -> 31 `i `uc
 -> -> 31 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 7 `i `uc
--> -> 3 `i `uc
--> -> 0 `i `uc
 -> -> 31 `i `uc
--> -> 63 `i `uc
--> -> 63 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 1 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 128 `i `uc
--> -> 128 `i `uc
--> -> 192 `i `uc
--> -> 224 `i `uc
--> -> 224 `i `uc
--> -> 120 `i `uc
--> -> 62 `i `uc
 -> -> 31 `i `uc
--> -> 7 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 36 `i `uc
--> -> 36 `i `uc
--> -> 36 `i `uc
--> -> 36 `i `uc
--> -> 36 `i `uc
--> -> 32 `i `uc
--> -> 63 `i `uc
--> -> 63 `i `uc
--> -> 63 `i `uc
 -> -> 31 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 60 `i `uc
--> -> 63 `i `uc
--> -> 63 `i `uc
--> -> 63 `i `uc
--> -> 3 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 36 `i `uc
--> -> 36 `i `uc
--> -> 36 `i `uc
--> -> 36 `i `uc
--> -> 36 `i `uc
--> -> 1 `i `uc
--> -> 63 `i `uc
--> -> 63 `i `uc
--> -> 63 `i `uc
--> -> 63 `i `uc
--> -> 63 `i `uc
--> -> 7 `i `uc
--> -> 1 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 36 `i `uc
--> -> 36 `i `uc
--> -> 36 `i `uc
--> -> 36 `i `uc
--> -> 36 `i `uc
--> -> 0 `i `uc
--> -> 63 `i `uc
--> -> 63 `i `uc
--> -> 63 `i `uc
--> -> 63 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 15 `i `uc
--> -> 63 `i `uc
--> -> 63 `i `uc
--> -> 63 `i `uc
--> -> 48 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 1 `i `uc
--> -> 1 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 3 `i `uc
--> -> 1 `i `uc
--> -> 1 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 194 `i `uc
--> -> 250 `i `uc
--> -> 254 `i `uc
--> -> 254 `i `uc
--> -> 254 `i `uc
--> -> 254 `i `uc
--> -> 158 `i `uc
--> -> 198 `i `uc
--> -> 194 `i `uc
--> -> 226 `i `uc
--> -> 34 `i `uc
--> -> 6 `i `uc
--> -> 126 `i `uc
--> -> 126 `i `uc
--> -> 30 `i `uc
--> -> 2 `i `uc
--> -> 0 `i `uc
--> -> 2 `i `uc
--> -> 226 `i `uc
--> -> 250 `i `uc
--> -> 254 `i `uc
--> -> 254 `i `uc
--> -> 254 `i `uc
--> -> 254 `i `uc
--> -> 62 `i `uc
--> -> 6 `i `uc
--> -> 2 `i `uc
--> -> 6 `i `uc
--> -> 254 `i `uc
--> -> 252 `i `uc
--> -> 252 `i `uc
--> -> 248 `i `uc
--> -> 240 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 112 `i `uc
--> -> 248 `i `uc
--> -> 252 `i `uc
--> -> 254 `i `uc
--> -> 230 `i `uc
--> -> 194 `i `uc
--> -> 194 `i `uc
--> -> 130 `i `uc
--> -> 134 `i `uc
--> -> 126 `i `uc
--> -> 124 `i `uc
--> -> 60 `i `uc
--> -> 4 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 24 `i `uc
--> -> 60 `i `uc
--> -> 60 `i `uc
--> -> 62 `i `uc
--> -> 190 `i `uc
--> -> 146 `i `uc
--> -> 194 `i `uc
--> -> 254 `i `uc
--> -> 254 `i `uc
--> -> 254 `i `uc
--> -> 60 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
 -> -> 28 `i `uc
 -> -> 0 `i `uc
 -> -> 0 `i `uc
--> -> 128 `i `uc
--> -> 224 `i `uc
--> -> 240 `i `uc
--> -> 248 `i `uc
--> -> 252 `i `uc
--> -> 252 `i `uc
--> -> 62 `i `uc
--> -> 14 `i `uc
--> -> 134 `i `uc
--> -> 226 `i `uc
--> -> 254 `i `uc
--> -> 252 `i `uc
--> -> 252 `i `uc
--> -> 240 `i `uc
 -> -> 0 `i `uc
 -> -> 0 `i `uc
 -> -> 0 `i `uc
 -> -> 0 `i `uc
 -> -> 0 `i `uc
+-> -> 192 `i `uc
+-> -> 255 `i `uc
 -> -> 0 `i `uc
 -> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 64 `i `uc
--> -> 64 `i `uc
--> -> 112 `i `uc
--> -> 124 `i `uc
--> -> 127 `i `uc
--> -> 127 `i `uc
--> -> 127 `i `uc
--> -> 127 `i `uc
--> -> 79 `i `uc
--> -> 65 `i `uc
--> -> 64 `i `uc
--> -> 101 `i `uc
--> -> 103 `i `uc
--> -> 115 `i `uc
--> -> 120 `i `uc
--> -> 124 `i `uc
--> -> 62 `i `uc
--> -> 6 `i `uc
--> -> 64 `i `uc
--> -> 64 `i `uc
--> -> 112 `i `uc
--> -> 124 `i `uc
--> -> 127 `i `uc
--> -> 127 `i `uc
--> -> 127 `i `uc
--> -> 127 `i `uc
--> -> 79 `i `uc
--> -> 67 `i `uc
--> -> 96 `i `uc
--> -> 96 `i `uc
--> -> 120 `i `uc
--> -> 124 `i `uc
--> -> 63 `i `uc
--> -> 63 `i `uc
--> -> 31 `i `uc
--> -> 31 `i `uc
--> -> 7 `i `uc
--> -> 67 `i `uc
--> -> 112 `i `uc
--> -> 62 `i `uc
--> -> 62 `i `uc
+-> -> 3 `i `uc
+-> -> 15 `i `uc
+-> -> 28 `i `uc
 -> -> 56 `i `uc
--> -> 96 `i `uc
--> -> 65 `i `uc
--> -> 65 `i `uc
--> -> 67 `i `uc
--> -> 103 `i `uc
--> -> 127 `i `uc
--> -> 63 `i `uc
--> -> 63 `i `uc
--> -> 31 `i `uc
--> -> 14 `i `uc
--> -> 0 `i `uc
--> -> 12 `i `uc
--> -> 14 `i `uc
--> -> 14 `i `uc
--> -> 14 `i `uc
--> -> 14 `i `uc
--> -> 14 `i `uc
--> -> 2 `i `uc
--> -> 0 `i `uc
--> -> 28 `i `uc
--> -> 60 `i `uc
--> -> 126 `i `uc
--> -> 126 `i `uc
--> -> 92 `i `uc
--> -> 77 `i `uc
--> -> 113 `i `uc
--> -> 127 `i `uc
--> -> 127 `i `uc
--> -> 63 `i `uc
--> -> 63 `i `uc
--> -> 63 `i `uc
--> -> 31 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 15 `i `uc
--> -> 63 `i `uc
--> -> 63 `i `uc
--> -> 127 `i `uc
--> -> 71 `i `uc
--> -> 97 `i `uc
 -> -> 112 `i `uc
--> -> 124 `i `uc
--> -> 127 `i `uc
--> -> 63 `i `uc
--> -> 31 `i `uc
--> -> 31 `i `uc
--> -> 7 `i `uc
+-> -> 112 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 112 `i `uc
+-> -> 112 `i `uc
+-> -> 56 `i `uc
+-> -> 30 `i `uc
+-> -> 15 `i `uc
 -> -> 1 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 0 `i `uc
 -> -> 0 `i `uc
 ..
 ]
-"267
-[; ;./logos.h: 267: const unsigned char mode001_HE[]={
+"343
+[; ;./logos.h: 343: const unsigned char mode001_HE[]={
 [v _mode001_HE `Cuc ~T0 @X0 -> 1024 `i e ]
 [i _mode001_HE
 :U ..
@@ -4348,8 +4348,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"344
-[; ;./logos.h: 344: const unsigned char _main_7_HE[]={
+"420
+[; ;./logos.h: 420: const unsigned char _main_7_HE[]={
 [v __main_7_HE `Cuc ~T0 @X0 -> 1024 `i e ]
 [i __main_7_HE
 :U ..
@@ -5379,8 +5379,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"420
-[; ;./logos.h: 420: const unsigned char _mic_menu_1_HE[] = {
+"496
+[; ;./logos.h: 496: const unsigned char _mic_menu_1_HE[] = {
 [v __mic_menu_1_HE `Cuc ~T0 @X0 -> 1024 `i e ]
 [i __mic_menu_1_HE
 :U ..
@@ -6410,8 +6410,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"566
-[; ;./logos.h: 566: const unsigned char _mic_menu_2_HE[] = {
+"642
+[; ;./logos.h: 642: const unsigned char _mic_menu_2_HE[] = {
 [v __mic_menu_2_HE `Cuc ~T0 @X0 -> 1024 `i e ]
 [i __mic_menu_2_HE
 :U ..
@@ -7441,8 +7441,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"713
-[; ;./logos.h: 713: const unsigned char _aux_mic1_19[] = {
+"789
+[; ;./logos.h: 789: const unsigned char _aux_mic1_19[] = {
 [v __aux_mic1_19 `Cuc ~T0 @X0 -> 24 `i e ]
 [i __aux_mic1_19
 :U ..
@@ -7472,8 +7472,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"720
-[; ;./logos.h: 720: const unsigned char _mic_menu_3_HE[] = {
+"796
+[; ;./logos.h: 796: const unsigned char _mic_menu_3_HE[] = {
 [v __mic_menu_3_HE `Cuc ~T0 @X0 -> 1024 `i e ]
 [i __mic_menu_3_HE
 :U ..
@@ -8503,8 +8503,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"865
-[; ;./logos.h: 865: const unsigned char _mic1_cut_89[]={
+"941
+[; ;./logos.h: 941: const unsigned char _mic1_cut_89[]={
 [v __mic1_cut_89 `Cuc ~T0 @X0 -> 48 `i e ]
 [i __mic1_cut_89
 :U ..
@@ -8558,8 +8558,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"871
-[; ;./logos.h: 871: const unsigned char _mic2_cut_89[]={
+"947
+[; ;./logos.h: 947: const unsigned char _mic2_cut_89[]={
 [v __mic2_cut_89 `Cuc ~T0 @X0 -> 48 `i e ]
 [i __mic2_cut_89
 :U ..
@@ -8613,8 +8613,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"883
-[; ;./logos.h: 883: const unsigned char _m3_cut_48[]={
+"959
+[; ;./logos.h: 959: const unsigned char _m3_cut_48[]={
 [v __m3_cut_48 `Cuc ~T0 @X0 -> 48 `i e ]
 [i __m3_cut_48
 :U ..
@@ -8668,8 +8668,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"889
-[; ;./logos.h: 889: const unsigned char _m1_short_42[]={
+"965
+[; ;./logos.h: 965: const unsigned char _m1_short_42[]={
 [v __m1_short_42 `Cuc ~T0 @X0 -> 42 `i e ]
 [i __m1_short_42
 :U ..
@@ -8717,8 +8717,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"895
-[; ;./logos.h: 895: const unsigned char _m2_short_42[]={
+"971
+[; ;./logos.h: 971: const unsigned char _m2_short_42[]={
 [v __m2_short_42 `Cuc ~T0 @X0 -> 42 `i e ]
 [i __m2_short_42
 :U ..
@@ -8766,8 +8766,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"901
-[; ;./logos.h: 901: const unsigned char _m3_short_42[]={
+"977
+[; ;./logos.h: 977: const unsigned char _m3_short_42[]={
 [v __m3_short_42 `Cuc ~T0 @X0 -> 42 `i e ]
 [i __m3_short_42
 :U ..
@@ -8815,8 +8815,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"908
-[; ;./logos.h: 908: const unsigned char _all_mic_cut_104[]={
+"984
+[; ;./logos.h: 984: const unsigned char _all_mic_cut_104[]={
 [v __all_mic_cut_104 `Cuc ~T0 @X0 -> 104 `i e ]
 [i __all_mic_cut_104
 :U ..
@@ -8926,8 +8926,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"918
-[; ;./logos.h: 918: const unsigned char _zone_1_HE[]={
+"994
+[; ;./logos.h: 994: const unsigned char _zone_1_HE[]={
 [v __zone_1_HE `Cuc ~T0 @X0 -> 32 `i e ]
 [i __zone_1_HE
 :U ..
@@ -8965,8 +8965,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"923
-[; ;./logos.h: 923: const unsigned char _zone_2_HE[]={
+"999
+[; ;./logos.h: 999: const unsigned char _zone_2_HE[]={
 [v __zone_2_HE `Cuc ~T0 @X0 -> 32 `i e ]
 [i __zone_2_HE
 :U ..
@@ -9004,8 +9004,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"928
-[; ;./logos.h: 928: const unsigned char _zone_1_2_HE[]={
+"1004
+[; ;./logos.h: 1004: const unsigned char _zone_1_2_HE[]={
 [v __zone_1_2_HE `Cuc ~T0 @X0 -> 29 `i e ]
 [i __zone_1_2_HE
 :U ..
@@ -9040,8 +9040,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"933
-[; ;./logos.h: 933: const unsigned char _mic_off_HE[]={
+"1009
+[; ;./logos.h: 1009: const unsigned char _mic_off_HE[]={
 [v __mic_off_HE `Cuc ~T0 @X0 -> 32 `i e ]
 [i __mic_off_HE
 :U ..
@@ -9079,8 +9079,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"940
-[; ;./logos.h: 940: const unsigned char sys_sett_HE[]= {
+"1016
+[; ;./logos.h: 1016: const unsigned char sys_sett_HE[]= {
 [v _sys_sett_HE `Cuc ~T0 @X0 -> 50 `i e ]
 [i _sys_sett_HE
 :U ..
@@ -9136,8 +9136,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 255 `i `uc
 ..
 ]
-"947
-[; ;./logos.h: 947: const unsigned char msg_sett_HE[]= {
+"1023
+[; ;./logos.h: 1023: const unsigned char msg_sett_HE[]= {
 [v _msg_sett_HE `Cuc ~T0 @X0 -> 80 `i e ]
 [i _msg_sett_HE
 :U ..
@@ -9223,8 +9223,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"956
-[; ;./logos.h: 956: const unsigned char _rs_485_HE[]= {
+"1032
+[; ;./logos.h: 1032: const unsigned char _rs_485_HE[]= {
 [v __rs_485_HE `Cuc ~T0 @X0 -> 80 `i e ]
 [i __rs_485_HE
 :U ..
@@ -9310,8 +9310,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"965
-[; ;./logos.h: 965: const unsigned char about__HE[]={
+"1041
+[; ;./logos.h: 1041: const unsigned char about__HE[]={
 [v _about__HE `Cuc ~T0 @X0 -> 80 `i e ]
 [i _about__HE
 :U ..
@@ -9397,8 +9397,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"974
-[; ;./logos.h: 974: const unsigned char _PA__HE[]={
+"1050
+[; ;./logos.h: 1050: const unsigned char _PA__HE[]={
 [v __PA__HE `Cuc ~T0 @X0 -> 49 `i e ]
 [i __PA__HE
 :U ..
@@ -9453,8 +9453,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"981
-[; ;./logos.h: 981: const unsigned char rev__HE[]={
+"1057
+[; ;./logos.h: 1057: const unsigned char rev__HE[]={
 [v _rev__HE `Cuc ~T0 @X0 -> 24 `i e ]
 [i _rev__HE
 :U ..
@@ -9484,8 +9484,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"986
-[; ;./logos.h: 986: const unsigned char prod__HE[]={
+"1062
+[; ;./logos.h: 1062: const unsigned char prod__HE[]={
 [v _prod__HE `Cuc ~T0 @X0 -> 17 `i e ]
 [i _prod__HE
 :U ..
@@ -9508,8 +9508,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"991
-[; ;./logos.h: 991: const unsigned char date__HE[]={
+"1067
+[; ;./logos.h: 1067: const unsigned char date__HE[]={
 [v _date__HE `Cuc ~T0 @X0 -> 27 `i e ]
 [i _date__HE
 :U ..
@@ -9542,8 +9542,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"997
-[; ;./logos.h: 997: const unsigned char klali_HE[]={
+"1073
+[; ;./logos.h: 1073: const unsigned char klali_HE[]={
 [v _klali_HE `Cuc ~T0 @X0 -> 80 `i e ]
 [i _klali_HE
 :U ..
@@ -9629,8 +9629,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1005
-[; ;./logos.h: 1005: const unsigned char reset_HE[]= {
+"1081
+[; ;./logos.h: 1081: const unsigned char reset_HE[]= {
 [v _reset_HE `Cuc ~T0 @X0 -> 80 `i e ]
 [i _reset_HE
 :U ..
@@ -9716,8 +9716,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1014
-[; ;./logos.h: 1014: const unsigned char _audio_50[]={
+"1090
+[; ;./logos.h: 1090: const unsigned char _audio_50[]={
 [v __audio_50 `Cuc ~T0 @X0 -> 80 `i e ]
 [i __audio_50
 :U ..
@@ -9803,8 +9803,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1023
-[; ;./logos.h: 1023: const unsigned char _audio_70[]={
+"1099
+[; ;./logos.h: 1099: const unsigned char _audio_70[]={
 [v __audio_70 `Cuc ~T0 @X0 -> 70 `i e ]
 [i __audio_70
 :U ..
@@ -9880,8 +9880,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1031
-[; ;./logos.h: 1031: const unsigned char _mic_set_80[]={
+"1107
+[; ;./logos.h: 1107: const unsigned char _mic_set_80[]={
 [v __mic_set_80 `Cuc ~T0 @X0 -> 80 `i e ]
 [i __mic_set_80
 :U ..
@@ -9967,8 +9967,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1041
-[; ;./logos.h: 1041: const unsigned char _back[]={
+"1117
+[; ;./logos.h: 1117: const unsigned char _back[]={
 [v __back `Cuc ~T0 @X0 -> 9 `i e ]
 [i __back
 :U ..
@@ -9983,8 +9983,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1045
-[; ;./logos.h: 1045: const unsigned char _enter[]={
+"1121
+[; ;./logos.h: 1121: const unsigned char _enter[]={
 [v __enter `Cuc ~T0 @X0 -> 8 `i e ]
 [i __enter
 :U ..
@@ -9998,8 +9998,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1050
-[; ;./logos.h: 1050: const unsigned char _up[]={
+"1126
+[; ;./logos.h: 1126: const unsigned char _up[]={
 [v __up `Cuc ~T0 @X0 -> 9 `i e ]
 [i __up
 :U ..
@@ -10014,8 +10014,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1055
-[; ;./logos.h: 1055: const unsigned char _down[]={
+"1131
+[; ;./logos.h: 1131: const unsigned char _down[]={
 [v __down `Cuc ~T0 @X0 -> 9 `i e ]
 [i __down
 :U ..
@@ -10030,8 +10030,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1062
-[; ;./logos.h: 1062: const unsigned char dry_menu_1_HE[]= {
+"1138
+[; ;./logos.h: 1138: const unsigned char dry_menu_1_HE[]= {
 [v _dry_menu_1_HE `Cuc ~T0 @X0 -> 1024 `i e ]
 [i _dry_menu_1_HE
 :U ..
@@ -11061,8 +11061,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1137
-[; ;./logos.h: 1137: const unsigned char dry_menu_2_HE[]= {
+"1213
+[; ;./logos.h: 1213: const unsigned char dry_menu_2_HE[]= {
 [v _dry_menu_2_HE `Cuc ~T0 @X0 -> 1024 `i e ]
 [i _dry_menu_2_HE
 :U ..
@@ -12092,8 +12092,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1211
-[; ;./logos.h: 1211: const unsigned char dry_menu_3_HE[]= {
+"1287
+[; ;./logos.h: 1287: const unsigned char dry_menu_3_HE[]= {
 [v _dry_menu_3_HE `Cuc ~T0 @X0 -> 1024 `i e ]
 [i _dry_menu_3_HE
 :U ..
@@ -13123,8 +13123,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1285
-[; ;./logos.h: 1285: const unsigned char dry_menu_4_HE[]= {
+"1361
+[; ;./logos.h: 1361: const unsigned char dry_menu_4_HE[]= {
 [v _dry_menu_4_HE `Cuc ~T0 @X0 -> 1024 `i e ]
 [i _dry_menu_4_HE
 :U ..
@@ -14154,8 +14154,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1359
-[; ;./logos.h: 1359: const unsigned char msg_1_HE[]= {
+"1435
+[; ;./logos.h: 1435: const unsigned char msg_1_HE[]= {
 [v _msg_1_HE `Cuc ~T0 @X0 -> 32 `i e ]
 [i _msg_1_HE
 :U ..
@@ -14193,8 +14193,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1364
-[; ;./logos.h: 1364: const unsigned char msg_2_HE[]= {
+"1440
+[; ;./logos.h: 1440: const unsigned char msg_2_HE[]= {
 [v _msg_2_HE `Cuc ~T0 @X0 -> 32 `i e ]
 [i _msg_2_HE
 :U ..
@@ -14232,8 +14232,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1369
-[; ;./logos.h: 1369: const unsigned char msg_3_HE[]= {
+"1445
+[; ;./logos.h: 1445: const unsigned char msg_3_HE[]= {
 [v _msg_3_HE `Cuc ~T0 @X0 -> 32 `i e ]
 [i _msg_3_HE
 :U ..
@@ -14271,8 +14271,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1374
-[; ;./logos.h: 1374: const unsigned char msg_4_HE[]= {
+"1450
+[; ;./logos.h: 1450: const unsigned char msg_4_HE[]= {
 [v _msg_4_HE `Cuc ~T0 @X0 -> 32 `i e ]
 [i _msg_4_HE
 :U ..
@@ -14310,8 +14310,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1379
-[; ;./logos.h: 1379: const unsigned char msg_5_HE[]= {
+"1455
+[; ;./logos.h: 1455: const unsigned char msg_5_HE[]= {
 [v _msg_5_HE `Cuc ~T0 @X0 -> 32 `i e ]
 [i _msg_5_HE
 :U ..
@@ -14349,8 +14349,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1384
-[; ;./logos.h: 1384: const unsigned char a_in_HE[]= {
+"1460
+[; ;./logos.h: 1460: const unsigned char a_in_HE[]= {
 [v _a_in_HE `Cuc ~T0 @X0 -> 32 `i e ]
 [i _a_in_HE
 :U ..
@@ -14388,8 +14388,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1391
-[; ;./logos.h: 1391: const unsigned char Malfunction_HE_34[]={
+"1467
+[; ;./logos.h: 1467: const unsigned char Malfunction_HE_34[]={
 [v _Malfunction_HE_34 `Cuc ~T0 @X0 -> 51 `i e ]
 [i _Malfunction_HE_34
 :U ..
@@ -14446,8 +14446,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1412
-[; ;./logos.h: 1412: const unsigned char _sp1_line_open_HE[] = {
+"1488
+[; ;./logos.h: 1488: const unsigned char _sp1_line_open_HE[] = {
 [v __sp1_line_open_HE `Cuc ~T0 @X0 -> 46 `i e ]
 [i __sp1_line_open_HE
 :U ..
@@ -14499,8 +14499,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1430
-[; ;./logos.h: 1430: const unsigned char _sp1_line_short_HE[] = {
+"1506
+[; ;./logos.h: 1506: const unsigned char _sp1_line_short_HE[] = {
 [v __sp1_line_short_HE `Cuc ~T0 @X0 -> 46 `i e ]
 [i __sp1_line_short_HE
 :U ..
@@ -14552,8 +14552,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1448
-[; ;./logos.h: 1448: const unsigned char _sp1_Line_GND_HE[]={
+"1524
+[; ;./logos.h: 1524: const unsigned char _sp1_Line_GND_HE[]={
 [v __sp1_Line_GND_HE `Cuc ~T0 @X0 -> 87 `i e ]
 [i __sp1_Line_GND_HE
 :U ..
@@ -14646,8 +14646,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1471
-[; ;./logos.h: 1471: const unsigned char _sp2_line_open_HE[] = {
+"1547
+[; ;./logos.h: 1547: const unsigned char _sp2_line_open_HE[] = {
 [v __sp2_line_open_HE `Cuc ~T0 @X0 -> 45 `i e ]
 [i __sp2_line_open_HE
 :U ..
@@ -14698,8 +14698,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1489
-[; ;./logos.h: 1489: const unsigned char _sp2_line_short_HE[] = {
+"1565
+[; ;./logos.h: 1565: const unsigned char _sp2_line_short_HE[] = {
 [v __sp2_line_short_HE `Cuc ~T0 @X0 -> 46 `i e ]
 [i __sp2_line_short_HE
 :U ..
@@ -14751,8 +14751,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1507
-[; ;./logos.h: 1507: const unsigned char _sp2_Line_GND_HE[]={
+"1583
+[; ;./logos.h: 1583: const unsigned char _sp2_Line_GND_HE[]={
 [v __sp2_Line_GND_HE `Cuc ~T0 @X0 -> 87 `i e ]
 [i __sp2_Line_GND_HE
 :U ..
@@ -14845,8 +14845,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1531
-[; ;./logos.h: 1531: const unsigned char rs_70[]={
+"1607
+[; ;./logos.h: 1607: const unsigned char rs_70[]={
 [v _rs_70 `Cuc ~T0 @X0 -> 70 `i e ]
 [i _rs_70
 :U ..
@@ -14922,8 +14922,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1540
-[; ;./logos.h: 1540: const unsigned char addr_34[]={
+"1616
+[; ;./logos.h: 1616: const unsigned char addr_34[]={
 [v _addr_34 `Cuc ~T0 @X0 -> 34 `i e ]
 [i _addr_34
 :U ..
@@ -14963,8 +14963,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1588
-[; ;./logos.h: 1588: const unsigned char ac_error_[] = {
+"1664
+[; ;./logos.h: 1664: const unsigned char ac_error_[] = {
 [v _ac_error_ `Cuc ~T0 @X0 -> 84 `i e ]
 [i _ac_error_
 :U ..
@@ -15054,8 +15054,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1601
-[; ;./logos.h: 1601: const unsigned char dc_error_[] = {
+"1677
+[; ;./logos.h: 1677: const unsigned char dc_error_[] = {
 [v _dc_error_ `Cuc ~T0 @X0 -> 65 `i e ]
 [i _dc_error_
 :U ..
@@ -15126,8 +15126,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1614
-[; ;./logos.h: 1614: const unsigned char msg_error_[] = {
+"1690
+[; ;./logos.h: 1690: const unsigned char msg_error_[] = {
 [v _msg_error_ `Cuc ~T0 @X0 -> 55 `i e ]
 [i _msg_error_
 :U ..
@@ -15188,8 +15188,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1621
-[; ;./logos.h: 1621: const unsigned char amp_error_[] = {
+"1697
+[; ;./logos.h: 1697: const unsigned char amp_error_[] = {
 [v _amp_error_ `Cuc ~T0 @X0 -> 34 `i e ]
 [i _amp_error_
 :U ..
@@ -15229,8 +15229,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1627
-[; ;./logos.h: 1627: const unsigned char eds_30[] = {
+"1703
+[; ;./logos.h: 1703: const unsigned char eds_30[] = {
 [v _eds_30 `Cuc ~T0 @X0 -> 37 `i e ]
 [i _eds_30
 :U ..
@@ -15273,8 +15273,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1634
-[; ;./logos.h: 1634: const unsigned char eds_30D[] = {
+"1710
+[; ;./logos.h: 1710: const unsigned char eds_30D[] = {
 [v _eds_30D `Cuc ~T0 @X0 -> 48 `i e ]
 [i _eds_30D
 :U ..
@@ -15328,8 +15328,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 0 `i `uc
 ..
 ]
-"1641
-[; ;./logos.h: 1641: const unsigned char erase_menu[] = {
+"1717
+[; ;./logos.h: 1717: const unsigned char erase_menu[] = {
 [v _erase_menu `Cuc ~T0 @X0 -> 1024 `i e ]
 [i _erase_menu
 :U ..
@@ -16662,11 +16662,11 @@ Version 4.0 HI-TECH Software Intermediate Code
  865 ]
 [e :U 865 ]
 "117
-[; ;mic.c: 117:     } else if (PTT1 == 1 && mic1_not_prs == 0 && press_all == 0) {
+[; ;mic.c: 117:     } else if (PTT1 == 1 && mic1_not_prs == 0 && press1 == 1) {
 }
 [e $U 886  ]
 [e :U 864 ]
-[e $ ! && && == _PTT1 -> -> 1 `i `ui == -> _mic1_not_prs `i -> 0 `i == -> _press_all `i -> 0 `i 887  ]
+[e $ ! && && == _PTT1 -> -> 1 `i `ui == -> _mic1_not_prs `i -> 0 `i == -> _press1 `i -> 1 `i 887  ]
 {
 "120
 [; ;mic.c: 120:         mic1_cut = 0;
@@ -16938,11 +16938,11 @@ Version 4.0 HI-TECH Software Intermediate Code
  897 ]
 [e :U 897 ]
 "213
-[; ;mic.c: 213:     } else if (PTT2 == 1 && mic2_not_prs == 0 && press_all == 0) {
+[; ;mic.c: 213:     } else if (PTT2 == 1 && mic2_not_prs == 0 && press2 == 1) {
 }
 [e $U 911  ]
 [e :U 895 ]
-[e $ ! && && == _PTT2 -> -> 1 `i `ui == -> _mic2_not_prs `i -> 0 `i == -> _press_all `i -> 0 `i 912  ]
+[e $ ! && && == _PTT2 -> -> 1 `i `ui == -> _mic2_not_prs `i -> 0 `i == -> _press2 `i -> 1 `i 912  ]
 {
 "214
 [; ;mic.c: 214:         vol_set2 = 0;
@@ -17106,114 +17106,114 @@ Version 4.0 HI-TECH Software Intermediate Code
 "274
 [; ;mic.c: 274:         all_alarms |= (1 << 5);
 [e =| _all_alarms -> << -> 1 `i -> 5 `i `uc ]
-"276
-[; ;mic.c: 276:         jq8900_stop();
+"275
+[; ;mic.c: 275:         jq8900_stop();
 [e ( _jq8900_stop ..  ]
-"278
-[; ;mic.c: 278:         switch (config.zone_sel3) {
+"277
+[; ;mic.c: 277:         switch (config.zone_sel3) {
 [e $U 923  ]
 {
-"280
-[; ;mic.c: 280:             case 0:
+"279
+[; ;mic.c: 279:             case 0:
 [e :U 924 ]
-"281
-[; ;mic.c: 281:                 zone1State = 1;
+"280
+[; ;mic.c: 280:                 zone1State = 1;
 [e = _zone1State -> -> 1 `i `uc ]
-"282
-[; ;mic.c: 282:                 shiftRegisterData |= (1 << 8) | (1 << 9);
+"281
+[; ;mic.c: 281:                 shiftRegisterData |= (1 << 8) | (1 << 9);
 [e =| _shiftRegisterData -> | << -> 1 `i -> 8 `i << -> 1 `i -> 9 `i `ui ]
-"283
-[; ;mic.c: 283:                 shiftRegisterData &= ~(1u << 4);
+"282
+[; ;mic.c: 282:                 shiftRegisterData &= ~(1u << 4);
 [e =& _shiftRegisterData ~ << -> 1 `ui -> 4 `i ]
-"284
-[; ;mic.c: 284:                 if (config.mode == 1)
+"283
+[; ;mic.c: 283:                 if (config.mode == 1)
 [e $ ! == -> . _config 7 `i -> 1 `i 925  ]
-"285
-[; ;mic.c: 285:                     shiftRegisterData |= (1 << 2);
+"284
+[; ;mic.c: 284:                     shiftRegisterData |= (1 << 2);
 [e =| _shiftRegisterData -> << -> 1 `i -> 2 `i `ui ]
 [e $U 926  ]
-"286
-[; ;mic.c: 286:                 else if (config.mode == 2)
+"285
+[; ;mic.c: 285:                 else if (config.mode == 2)
 [e :U 925 ]
 [e $ ! == -> . _config 7 `i -> 2 `i 927  ]
-"287
-[; ;mic.c: 287:                     shiftRegisterData |= ((1 << 2) | (1 << 3));
+"286
+[; ;mic.c: 286:                     shiftRegisterData |= ((1 << 2) | (1 << 3));
 [e =| _shiftRegisterData -> | << -> 1 `i -> 2 `i << -> 1 `i -> 3 `i `ui ]
 [e :U 927 ]
 [e :U 926 ]
-"288
-[; ;mic.c: 288:                 break;
+"287
+[; ;mic.c: 287:                 break;
 [e $U 922  ]
-"289
-[; ;mic.c: 289:             case 1:
+"288
+[; ;mic.c: 288:             case 1:
 [e :U 928 ]
-"290
-[; ;mic.c: 290:                 zone2State = 1;
+"289
+[; ;mic.c: 289:                 zone2State = 1;
 [e = _zone2State -> -> 1 `i `uc ]
-"291
-[; ;mic.c: 291:                 shiftRegisterData |= (1 << 8) | (1 << 9);
+"290
+[; ;mic.c: 290:                 shiftRegisterData |= (1 << 8) | (1 << 9);
 [e =| _shiftRegisterData -> | << -> 1 `i -> 8 `i << -> 1 `i -> 9 `i `ui ]
-"292
-[; ;mic.c: 292:                 shiftRegisterData &= ~(1u << 5);
+"291
+[; ;mic.c: 291:                 shiftRegisterData &= ~(1u << 5);
 [e =& _shiftRegisterData ~ << -> 1 `ui -> 5 `i ]
-"293
-[; ;mic.c: 293:                 if (config.mode == 1)
+"292
+[; ;mic.c: 292:                 if (config.mode == 1)
 [e $ ! == -> . _config 7 `i -> 1 `i 929  ]
-"294
-[; ;mic.c: 294:                     shiftRegisterData |= (1 << 2);
+"293
+[; ;mic.c: 293:                     shiftRegisterData |= (1 << 2);
 [e =| _shiftRegisterData -> << -> 1 `i -> 2 `i `ui ]
 [e $U 930  ]
-"295
-[; ;mic.c: 295:                 else if (config.mode == 2)
+"294
+[; ;mic.c: 294:                 else if (config.mode == 2)
 [e :U 929 ]
 [e $ ! == -> . _config 7 `i -> 2 `i 931  ]
-"296
-[; ;mic.c: 296:                     shiftRegisterData |= ((1 << 2) | (1 << 3));
+"295
+[; ;mic.c: 295:                     shiftRegisterData |= ((1 << 2) | (1 << 3));
 [e =| _shiftRegisterData -> | << -> 1 `i -> 2 `i << -> 1 `i -> 3 `i `ui ]
 [e :U 931 ]
 [e :U 930 ]
-"297
-[; ;mic.c: 297:                 break;
+"296
+[; ;mic.c: 296:                 break;
 [e $U 922  ]
-"298
-[; ;mic.c: 298:             case 2:
+"297
+[; ;mic.c: 297:             case 2:
 [e :U 932 ]
-"299
-[; ;mic.c: 299:                 zone1State = 1;
+"298
+[; ;mic.c: 298:                 zone1State = 1;
 [e = _zone1State -> -> 1 `i `uc ]
-"300
-[; ;mic.c: 300:                 zone2State = 1;
+"299
+[; ;mic.c: 299:                 zone2State = 1;
 [e = _zone2State -> -> 1 `i `uc ]
-"301
-[; ;mic.c: 301:                 shiftRegisterData |= (1u << 8) | (1u << 9);
+"300
+[; ;mic.c: 300:                 shiftRegisterData |= (1u << 8) | (1u << 9);
 [e =| _shiftRegisterData | << -> 1 `ui -> 8 `i << -> 1 `ui -> 9 `i ]
-"302
-[; ;mic.c: 302:                 shiftRegisterData &= ~((1u << 4) | (1u << 5));
+"301
+[; ;mic.c: 301:                 shiftRegisterData &= ~((1u << 4) | (1u << 5));
 [e =& _shiftRegisterData ~ | << -> 1 `ui -> 4 `i << -> 1 `ui -> 5 `i ]
-"303
-[; ;mic.c: 303:                 if (config.mode == 1)
+"302
+[; ;mic.c: 302:                 if (config.mode == 1)
 [e $ ! == -> . _config 7 `i -> 1 `i 933  ]
-"304
-[; ;mic.c: 304:                     shiftRegisterData |= (1 << 2);
+"303
+[; ;mic.c: 303:                     shiftRegisterData |= (1 << 2);
 [e =| _shiftRegisterData -> << -> 1 `i -> 2 `i `ui ]
 [e $U 934  ]
-"305
-[; ;mic.c: 305:                 else if (config.mode == 2)
+"304
+[; ;mic.c: 304:                 else if (config.mode == 2)
 [e :U 933 ]
 [e $ ! == -> . _config 7 `i -> 2 `i 935  ]
-"306
-[; ;mic.c: 306:                     shiftRegisterData |= ((1 << 2) | (1 << 3));
+"305
+[; ;mic.c: 305:                     shiftRegisterData |= ((1 << 2) | (1 << 3));
 [e =| _shiftRegisterData -> | << -> 1 `i -> 2 `i << -> 1 `i -> 3 `i `ui ]
 [e :U 935 ]
 [e :U 934 ]
-"307
-[; ;mic.c: 307:                 jq8900_stop();
+"306
+[; ;mic.c: 306:                 jq8900_stop();
 [e ( _jq8900_stop ..  ]
-"308
-[; ;mic.c: 308:                 break;
+"307
+[; ;mic.c: 307:                 break;
 [e $U 922  ]
-"309
-[; ;mic.c: 309:                 }
+"308
+[; ;mic.c: 308:                 }
 }
 [e $U 922  ]
 [e :U 923 ]
@@ -17222,74 +17222,77 @@ Version 4.0 HI-TECH Software Intermediate Code
  , $ -> 2 `i 932
  922 ]
 [e :U 922 ]
-"363
-[; ;mic.c: 363:         shiftRegisterData &= ~((unsigned int)((1 << 2) | (1 << 3) | (1 << 4) |(1 << 5) | (1 << 6) | (1 << 7)));
+"362
+[; ;mic.c: 362:         shiftRegisterData &= ~((unsigned int)((1 << 2) | (1 << 3) | (1 << 4) |(1 << 5) | (1 << 6) | (1 << 7)));
 [e =& _shiftRegisterData ~ -> | | | | | << -> 1 `i -> 2 `i << -> 1 `i -> 3 `i << -> 1 `i -> 4 `i << -> 1 `i -> 5 `i << -> 1 `i -> 6 `i << -> 1 `i -> 7 `i `ui ]
-"365
-[; ;mic.c: 365:         if (config.mode == 1) {
+"364
+[; ;mic.c: 364:         if (config.mode == 1) {
 [e $ ! == -> . _config 7 `i -> 1 `i 936  ]
 {
-"366
-[; ;mic.c: 366:           shiftRegisterData |= (1 << 2);
+"365
+[; ;mic.c: 365:           shiftRegisterData |= (1 << 2);
 [e =| _shiftRegisterData -> << -> 1 `i -> 2 `i `ui ]
-"367
-[; ;mic.c: 367:         } else if (config.mode == 2) {
+"366
+[; ;mic.c: 366:         } else if (config.mode == 2) {
 }
 [e $U 937  ]
 [e :U 936 ]
 [e $ ! == -> . _config 7 `i -> 2 `i 938  ]
 {
-"369
-[; ;mic.c: 369:             shiftRegisterData |= ((1 << 2) | (1 << 3));
+"368
+[; ;mic.c: 368:             shiftRegisterData |= ((1 << 2) | (1 << 3));
 [e =| _shiftRegisterData -> | << -> 1 `i -> 2 `i << -> 1 `i -> 3 `i `ui ]
-"370
-[; ;mic.c: 370:         }
+"369
+[; ;mic.c: 369:         }
 }
 [e :U 938 ]
 [e :U 937 ]
-"371
-[; ;mic.c: 371:         zone1State = 1;
+"370
+[; ;mic.c: 370:         zone1State = 1;
 [e = _zone1State -> -> 1 `i `uc ]
-"372
-[; ;mic.c: 372:         zone2State = 1;
+"371
+[; ;mic.c: 371:         zone2State = 1;
 [e = _zone2State -> -> 1 `i `uc ]
-"374
-[; ;mic.c: 374:     }else if(PTT3 == 1 && mic3_not_prs == 0 && press_all == 0) {
+"373
+[; ;mic.c: 373:     }else if(PTT3 == 1 && mic3_not_prs == 0 && press_all == 1){
 }
 [e $U 939  ]
 [e :U 920 ]
-[e $ ! && && == _PTT3 -> -> 1 `i `ui == -> _mic3_not_prs `i -> 0 `i == -> _press_all `i -> 0 `i 940  ]
+[e $ ! && && == _PTT3 -> -> 1 `i `ui == -> _mic3_not_prs `i -> 0 `i == -> _press_all `i -> 1 `i 940  ]
 {
-"375
-[; ;mic.c: 375:         press_all = 0;
+"374
+[; ;mic.c: 374:         press_all = 0;
 [e = _press_all -> -> 0 `i `uc ]
-"376
-[; ;mic.c: 376:         press3 = 0;
+"375
+[; ;mic.c: 375:         press3 = 0;
 [e = _press3 -> -> 0 `i `uc ]
-"377
-[; ;mic.c: 377:         mic3_cut = 0;
+"376
+[; ;mic.c: 376:         mic3_cut = 0;
 [e = _mic3_cut -> -> 0 `i `uc ]
-"378
-[; ;mic.c: 378:         mic3_short = 0;
+"377
+[; ;mic.c: 377:         mic3_short = 0;
 [e = _mic3_short -> -> 0 `i `uc ]
-"379
-[; ;mic.c: 379:         m3_inv = 1;
+"378
+[; ;mic.c: 378:         m3_inv = 1;
 [e = _m3_inv -> -> 1 `i `uc ]
-"380
-[; ;mic.c: 380:         vol_set3 = 0;
+"379
+[; ;mic.c: 379:         vol_set3 = 0;
 [e = _vol_set3 -> -> 0 `i `uc ]
-"381
-[; ;mic.c: 381:         dry_c = 1;
+"380
+[; ;mic.c: 380:         dry_c = 1;
 [e = _dry_c -> -> 1 `i `uc ]
-"382
-[; ;mic.c: 382:         line_test_on = 0;
+"381
+[; ;mic.c: 381:         line_test_on = 0;
 [e = _line_test_on -> -> 0 `i `uc ]
-"383
-[; ;mic.c: 383:         mic3_not_prs = 1;
+"382
+[; ;mic.c: 382:         mic3_not_prs = 1;
 [e = _mic3_not_prs -> -> 1 `i `uc ]
-"384
-[; ;mic.c: 384:         all_errors1 &= ~(1 << 3);
+"383
+[; ;mic.c: 383:         all_errors1 &= ~(1 << 3);
 [e =& _all_errors1 -> ~ << -> 1 `i -> 3 `i `uc ]
+"384
+[; ;mic.c: 384:         all_alarms &= ~(1 << 5);
+[e =& _all_alarms -> ~ << -> 1 `i -> 5 `i `uc ]
 "386
 [; ;mic.c: 386:         if (config.mode == 1) {
 [e $ ! == -> . _config 7 `i -> 1 `i 941  ]
@@ -17322,289 +17325,286 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;mic.c: 393:         zone2State = 0;
 [e = _zone2State -> -> 0 `i `uc ]
 "394
-[; ;mic.c: 394:         all_alarms &= ~(1 << 5);
-[e =& _all_alarms -> ~ << -> 1 `i -> 5 `i `uc ]
-"395
-[; ;mic.c: 395:     }
+[; ;mic.c: 394:     }
 }
 [e :U 940 ]
 [e :U 939 ]
-"398
-[; ;mic.c: 398:     if (PTT3 == 3) {
+"397
+[; ;mic.c: 397:     if (PTT3 == 3) {
 [e $ ! == _PTT3 -> -> 3 `i `ui 944  ]
 {
-"399
-[; ;mic.c: 399:         all_errors1 |= (1 << 3);
+"398
+[; ;mic.c: 398:         all_errors1 |= (1 << 3);
 [e =| _all_errors1 -> << -> 1 `i -> 3 `i `uc ]
-"400
-[; ;mic.c: 400:         mic3_not_prs = 0;
+"399
+[; ;mic.c: 399:         mic3_not_prs = 0;
 [e = _mic3_not_prs -> -> 0 `i `uc ]
-"401
-[; ;mic.c: 401:         blink_en = 1;
+"400
+[; ;mic.c: 400:         blink_en = 1;
 [e = _blink_en -> -> 1 `i `uc ]
-"402
-[; ;mic.c: 402:         mic3_cut = 1;
+"401
+[; ;mic.c: 401:         mic3_cut = 1;
 [e = _mic3_cut -> -> 1 `i `uc ]
-"403
-[; ;mic.c: 403:     }
+"402
+[; ;mic.c: 402:     }
 }
 [e :U 944 ]
-"404
-[; ;mic.c: 404:     if(PTT3 == 4){
+"403
+[; ;mic.c: 403:     if(PTT3 == 4){
 [e $ ! == _PTT3 -> -> 4 `i `ui 945  ]
 {
-"405
-[; ;mic.c: 405:         all_errors1 |= (1 << 3);
+"404
+[; ;mic.c: 404:         all_errors1 |= (1 << 3);
 [e =| _all_errors1 -> << -> 1 `i -> 3 `i `uc ]
-"406
-[; ;mic.c: 406:         blink_en = 1;
+"405
+[; ;mic.c: 405:         blink_en = 1;
 [e = _blink_en -> -> 1 `i `uc ]
-"407
-[; ;mic.c: 407:         mic3_not_prs = 0;
+"406
+[; ;mic.c: 406:         mic3_not_prs = 0;
 [e = _mic3_not_prs -> -> 0 `i `uc ]
-"408
-[; ;mic.c: 408:         mic3_short = 1;
+"407
+[; ;mic.c: 407:         mic3_short = 1;
 [e = _mic3_short -> -> 1 `i `uc ]
-"409
-[; ;mic.c: 409:     }
+"408
+[; ;mic.c: 408:     }
 }
 [e :U 945 ]
-"411
-[; ;mic.c: 411:        if(PTT3 == 0){
+"410
+[; ;mic.c: 410:        if(PTT3 == 0){
 [e $ ! == _PTT3 -> -> 0 `i `ui 946  ]
 {
-"412
-[; ;mic.c: 412:             mic3_short = 0;
+"411
+[; ;mic.c: 411:             mic3_short = 0;
 [e = _mic3_short -> -> 0 `i `uc ]
-"413
-[; ;mic.c: 413:             mic3_not_prs = 0;
+"412
+[; ;mic.c: 412:             mic3_not_prs = 0;
 [e = _mic3_not_prs -> -> 0 `i `uc ]
-"414
-[; ;mic.c: 414:             all_errors1 &= ~(1 << 3);
+"413
+[; ;mic.c: 413:             all_errors1 &= ~(1 << 3);
 [e =& _all_errors1 -> ~ << -> 1 `i -> 3 `i `uc ]
-"415
-[; ;mic.c: 415:             blink_en = 0;
+"414
+[; ;mic.c: 414:             blink_en = 0;
 [e = _blink_en -> -> 0 `i `uc ]
-"416
-[; ;mic.c: 416:             mic3_cut = 0;
+"415
+[; ;mic.c: 415:             mic3_cut = 0;
 [e = _mic3_cut -> -> 0 `i `uc ]
-"417
-[; ;mic.c: 417:     }
+"416
+[; ;mic.c: 416:     }
 }
 [e :U 946 ]
-"418
-[; ;mic.c: 418: }
+"417
+[; ;mic.c: 417: }
 [e :UE 919 ]
 }
-"420
-[; ;mic.c: 420: void handleDryCont_3_4(unsigned char st) {
+"419
+[; ;mic.c: 419: void handleDryCont_3_4(unsigned char st) {
 [v _handleDryCont_3_4 `(v ~T0 @X0 1 ef1`uc ]
 {
 [e :U _handleDryCont_3_4 ]
 [v _st `uc ~T0 @X0 1 r1 ]
 [f ]
-"421
-[; ;mic.c: 421:     unsigned char statePTT3 = (m1_inv == 0 && m2_inv == 0) ? PTT_3() : 1;
+"420
+[; ;mic.c: 420:     unsigned char statePTT3 = (m1_inv == 0 && m2_inv == 0) ? PTT_3() : 1;
 [v _statePTT3 `uc ~T0 @X0 1 a ]
 [e = _statePTT3 -> ? && == -> _m1_inv `i -> 0 `i == -> _m2_inv `i -> 0 `i : -> ( _PTT_3 ..  `i -> 1 `i `uc ]
-"422
-[; ;mic.c: 422:     unsigned char statePTT4 = (m1_inv == 0 && m2_inv == 0) ? PTT_4() : 1;
+"421
+[; ;mic.c: 421:     unsigned char statePTT4 = (m1_inv == 0 && m2_inv == 0) ? PTT_4() : 1;
 [v _statePTT4 `uc ~T0 @X0 1 a ]
 [e = _statePTT4 -> ? && == -> _m1_inv `i -> 0 `i == -> _m2_inv `i -> 0 `i : -> ( _PTT_4 ..  `i -> 1 `i `uc ]
-"424
-[; ;mic.c: 424:     if (st && press_all == 0) {
+"423
+[; ;mic.c: 423:     if (st && press_all == 0) {
 [e $ ! && != -> _st `i -> 0 `i == -> _press_all `i -> 0 `i 948  ]
 {
-"426
-[; ;mic.c: 426:         if (statePTT3 == 0) {
+"425
+[; ;mic.c: 425:         if (statePTT3 == 0) {
 [e $ ! == -> _statePTT3 `i -> 0 `i 949  ]
 {
-"427
-[; ;mic.c: 427:             line_test_on = 1;
+"426
+[; ;mic.c: 426:             line_test_on = 1;
 [e = _line_test_on -> -> 1 `i `uc ]
-"428
-[; ;mic.c: 428:             tmr_line_tst = 0;
+"427
+[; ;mic.c: 427:             tmr_line_tst = 0;
 [e = _tmr_line_tst -> -> 0 `i `ui ]
-"429
-[; ;mic.c: 429:             press3 = 1;
+"428
+[; ;mic.c: 428:             press3 = 1;
 [e = _press3 -> -> 1 `i `uc ]
-"431
-[; ;mic.c: 431:             PORTCbits.RC1 = 1;
+"430
+[; ;mic.c: 430:             PORTCbits.RC1 = 1;
 [e = . . _PORTCbits 0 1 -> -> 1 `i `uc ]
-"432
-[; ;mic.c: 432:             all_alarms |= (1 << 2);
+"431
+[; ;mic.c: 431:             all_alarms |= (1 << 2);
 [e =| _all_alarms -> << -> 1 `i -> 2 `i `uc ]
-"433
-[; ;mic.c: 433:             dry_cont_state(0);
+"432
+[; ;mic.c: 432:             dry_cont_state(0);
 [e ( _dry_cont_state (1 -> -> 0 `i `uc ]
-"434
-[; ;mic.c: 434:         } else if (press3 == 1) {
+"433
+[; ;mic.c: 433:         } else if (press3 == 1) {
 }
 [e $U 950  ]
 [e :U 949 ]
 [e $ ! == -> _press3 `i -> 1 `i 951  ]
 {
-"435
-[; ;mic.c: 435:             line_test_on = 0;
+"434
+[; ;mic.c: 434:             line_test_on = 0;
 [e = _line_test_on -> -> 0 `i `uc ]
-"436
-[; ;mic.c: 436:             press3 = 0;
+"435
+[; ;mic.c: 435:             press3 = 0;
 [e = _press3 -> -> 0 `i `uc ]
-"437
-[; ;mic.c: 437:             jq8900_stop();
+"436
+[; ;mic.c: 436:             jq8900_stop();
 [e ( _jq8900_stop ..  ]
-"438
-[; ;mic.c: 438:             all_alarms &= ~(1 << 2);
+"437
+[; ;mic.c: 437:             all_alarms &= ~(1 << 2);
 [e =& _all_alarms -> ~ << -> 1 `i -> 2 `i `uc ]
-"439
-[; ;mic.c: 439:             shiftRegisterData &= ~((unsigned int) ((1 << 4) | (1 << 5) | (1 << 8) | (1 << 9)));
+"438
+[; ;mic.c: 438:             shiftRegisterData &= ~((unsigned int) ((1 << 4) | (1 << 5) | (1 << 8) | (1 << 9)));
 [e =& _shiftRegisterData ~ -> | | | << -> 1 `i -> 4 `i << -> 1 `i -> 5 `i << -> 1 `i -> 8 `i << -> 1 `i -> 9 `i `ui ]
-"440
-[; ;mic.c: 440:             if (statePTT3 && statePTT4 == 1) {
+"439
+[; ;mic.c: 439:             if (statePTT3 && statePTT4 == 1) {
 [e $ ! && != -> _statePTT3 `i -> 0 `i == -> _statePTT4 `i -> 1 `i 952  ]
 {
-"441
-[; ;mic.c: 441:                 zone1State = 0;
+"440
+[; ;mic.c: 440:                 zone1State = 0;
 [e = _zone1State -> -> 0 `i `uc ]
-"442
-[; ;mic.c: 442:                 zone2State = 0;
+"441
+[; ;mic.c: 441:                 zone2State = 0;
 [e = _zone2State -> -> 0 `i `uc ]
-"443
-[; ;mic.c: 443:             }
+"442
+[; ;mic.c: 442:             }
 }
 [e :U 952 ]
-"445
-[; ;mic.c: 445:         }
+"444
+[; ;mic.c: 444:         }
 }
 [e :U 951 ]
 [e :U 950 ]
-"447
-[; ;mic.c: 447:         if (statePTT4 == 0) {
+"446
+[; ;mic.c: 446:         if (statePTT4 == 0) {
 [e $ ! == -> _statePTT4 `i -> 0 `i 953  ]
 {
-"448
-[; ;mic.c: 448:             line_test_on = 1;
+"447
+[; ;mic.c: 447:             line_test_on = 1;
 [e = _line_test_on -> -> 1 `i `uc ]
-"449
-[; ;mic.c: 449:             tmr_line_tst = 0;
+"448
+[; ;mic.c: 448:             tmr_line_tst = 0;
 [e = _tmr_line_tst -> -> 0 `i `ui ]
-"450
-[; ;mic.c: 450:             press4 = 1;
+"449
+[; ;mic.c: 449:             press4 = 1;
 [e = _press4 -> -> 1 `i `uc ]
-"452
-[; ;mic.c: 452:             PORTCbits.RC1 = 1;
+"451
+[; ;mic.c: 451:             PORTCbits.RC1 = 1;
 [e = . . _PORTCbits 0 1 -> -> 1 `i `uc ]
-"453
-[; ;mic.c: 453:             all_alarms |= (1 << 3);
+"452
+[; ;mic.c: 452:             all_alarms |= (1 << 3);
 [e =| _all_alarms -> << -> 1 `i -> 3 `i `uc ]
-"454
-[; ;mic.c: 454:             dry_cont_state(1);
+"453
+[; ;mic.c: 453:             dry_cont_state(1);
 [e ( _dry_cont_state (1 -> -> 1 `i `uc ]
-"456
-[; ;mic.c: 456:         } else if (press4 == 1) {
+"455
+[; ;mic.c: 455:         } else if (press4 == 1) {
 }
 [e $U 954  ]
 [e :U 953 ]
 [e $ ! == -> _press4 `i -> 1 `i 955  ]
 {
-"457
-[; ;mic.c: 457:             line_test_on = 0;
+"456
+[; ;mic.c: 456:             line_test_on = 0;
 [e = _line_test_on -> -> 0 `i `uc ]
-"458
-[; ;mic.c: 458:             press4 = 0;
+"457
+[; ;mic.c: 457:             press4 = 0;
 [e = _press4 -> -> 0 `i `uc ]
-"459
-[; ;mic.c: 459:             jq8900_stop();
+"458
+[; ;mic.c: 458:             jq8900_stop();
 [e ( _jq8900_stop ..  ]
-"460
-[; ;mic.c: 460:             all_alarms &= ~(1 << 3);
+"459
+[; ;mic.c: 459:             all_alarms &= ~(1 << 3);
 [e =& _all_alarms -> ~ << -> 1 `i -> 3 `i `uc ]
-"461
-[; ;mic.c: 461:             shiftRegisterData &= ~((unsigned int) ((1 << 4) | (1 << 5) | (1 << 8) | (1 << 9)));
+"460
+[; ;mic.c: 460:             shiftRegisterData &= ~((unsigned int) ((1 << 4) | (1 << 5) | (1 << 8) | (1 << 9)));
 [e =& _shiftRegisterData ~ -> | | | << -> 1 `i -> 4 `i << -> 1 `i -> 5 `i << -> 1 `i -> 8 `i << -> 1 `i -> 9 `i `ui ]
-"462
-[; ;mic.c: 462:             if (statePTT3 && statePTT4 == 1) {
+"461
+[; ;mic.c: 461:             if (statePTT3 && statePTT4 == 1) {
 [e $ ! && != -> _statePTT3 `i -> 0 `i == -> _statePTT4 `i -> 1 `i 956  ]
 {
-"463
-[; ;mic.c: 463:                 zone1State = 0;
+"462
+[; ;mic.c: 462:                 zone1State = 0;
 [e = _zone1State -> -> 0 `i `uc ]
-"464
-[; ;mic.c: 464:                 zone2State = 0;
+"463
+[; ;mic.c: 463:                 zone2State = 0;
 [e = _zone2State -> -> 0 `i `uc ]
-"465
-[; ;mic.c: 465:             }
+"464
+[; ;mic.c: 464:             }
 }
 [e :U 956 ]
-"466
-[; ;mic.c: 466:         }
+"465
+[; ;mic.c: 465:         }
 }
 [e :U 955 ]
 [e :U 954 ]
-"468
-[; ;mic.c: 468:         action(zone1State, zone2State, shiftRegisterData);
+"467
+[; ;mic.c: 467:         action(zone1State, zone2State, shiftRegisterData);
 [e ( _action (3 , , _zone1State _zone2State _shiftRegisterData ]
-"470
-[; ;mic.c: 470:     }
+"469
+[; ;mic.c: 469:     }
 }
 [e :U 948 ]
-"471
-[; ;mic.c: 471: }
+"470
+[; ;mic.c: 470: }
 [e :UE 947 ]
 }
-"473
-[; ;mic.c: 473: void dry_cont_state(unsigned char st) {
+"472
+[; ;mic.c: 472: void dry_cont_state(unsigned char st) {
 [v _dry_cont_state `(v ~T0 @X0 1 ef1`uc ]
 {
 [e :U _dry_cont_state ]
 [v _st `uc ~T0 @X0 1 r1 ]
 [f ]
-"475
-[; ;mic.c: 475:     switch (counter[st].Zones) {
+"474
+[; ;mic.c: 474:     switch (counter[st].Zones) {
 [e $U 959  ]
 {
-"476
-[; ;mic.c: 476:         case 0: shiftRegisterData = 0b0001011100010000;
+"475
+[; ;mic.c: 475:         case 0: shiftRegisterData = 0b0001011100010000;
 [e :U 960 ]
 [e = _shiftRegisterData -> -> 5904 `i `ui ]
-"477
-[; ;mic.c: 477:             zone1State = 1;
+"476
+[; ;mic.c: 476:             zone1State = 1;
 [e = _zone1State -> -> 1 `i `uc ]
-"478
-[; ;mic.c: 478:             break;
+"477
+[; ;mic.c: 477:             break;
 [e $U 958  ]
-"479
-[; ;mic.c: 479:         case 1: shiftRegisterData = 0b0001011100100000;
+"478
+[; ;mic.c: 478:         case 1: shiftRegisterData = 0b0001011100100000;
 [e :U 961 ]
 [e = _shiftRegisterData -> -> 5920 `i `ui ]
-"480
-[; ;mic.c: 480:             zone2State = 1;
+"479
+[; ;mic.c: 479:             zone2State = 1;
 [e = _zone2State -> -> 1 `i `uc ]
-"481
-[; ;mic.c: 481:             break;
+"480
+[; ;mic.c: 480:             break;
 [e $U 958  ]
-"482
-[; ;mic.c: 482:         case 2: shiftRegisterData = 0b0001011100110000;
+"481
+[; ;mic.c: 481:         case 2: shiftRegisterData = 0b0001011100110000;
 [e :U 962 ]
 [e = _shiftRegisterData -> -> 5936 `i `ui ]
-"483
-[; ;mic.c: 483:             zone1State = 1;
+"482
+[; ;mic.c: 482:             zone1State = 1;
 [e = _zone1State -> -> 1 `i `uc ]
-"484
-[; ;mic.c: 484:             zone2State = 1;
+"483
+[; ;mic.c: 483:             zone2State = 1;
 [e = _zone2State -> -> 1 `i `uc ]
-"485
-[; ;mic.c: 485:             break;
+"484
+[; ;mic.c: 484:             break;
 [e $U 958  ]
-"486
-[; ;mic.c: 486:         case 3: shiftRegisterData = 0b0001011100000000;
+"485
+[; ;mic.c: 485:         case 3: shiftRegisterData = 0b0001011100000000;
 [e :U 963 ]
 [e = _shiftRegisterData -> -> 5888 `i `ui ]
-"487
-[; ;mic.c: 487:             break;
+"486
+[; ;mic.c: 486:             break;
 [e $U 958  ]
-"488
-[; ;mic.c: 488:     }
+"487
+[; ;mic.c: 487:     }
 }
 [e $U 958  ]
 [e :U 959 ]
@@ -17614,48 +17614,48 @@ Version 4.0 HI-TECH Software Intermediate Code
  , $ -> 3 `i 963
  958 ]
 [e :U 958 ]
-"489
-[; ;mic.c: 489:     switch (counter[st].MSG) {
+"488
+[; ;mic.c: 488:     switch (counter[st].MSG) {
 [e $U 965  ]
 {
-"490
-[; ;mic.c: 490:         case 1: case 2: case 3: case 4: case 5:
+"489
+[; ;mic.c: 489:         case 1: case 2: case 3: case 4: case 5:
 [e :U 966 ]
 [e :U 967 ]
 [e :U 968 ]
 [e :U 969 ]
 [e :U 970 ]
-"491
-[; ;mic.c: 491:             if (is_module_busy() == 0) {
+"490
+[; ;mic.c: 490:             if (is_module_busy() == 0) {
 [e $ ! == -> ( _is_module_busy ..  `i -> 0 `i 971  ]
 {
-"492
-[; ;mic.c: 492:                 jq8900_playTrack(counter[st].MSG);
+"491
+[; ;mic.c: 491:                 jq8900_playTrack(counter[st].MSG);
 [e ( _jq8900_playTrack (1 -> . *U + &U _counter * -> _st `ux -> -> # *U &U _counter `ui `ux 1 `uc ]
-"493
-[; ;mic.c: 493:             }
+"492
+[; ;mic.c: 492:             }
 }
 [e :U 971 ]
+"493
+[; ;mic.c: 493:             break;
+[e $U 964  ]
 "494
-[; ;mic.c: 494:             break;
-[e $U 964  ]
-"495
-[; ;mic.c: 495:         case 6:
+[; ;mic.c: 494:         case 6:
 [e :U 972 ]
-"496
-[; ;mic.c: 496:             SendShiftData595(0b0001011111000000);
+"495
+[; ;mic.c: 495:             SendShiftData595(0b0001011111000000);
 [e ( _SendShiftData595 (1 -> -> 6080 `i `ui ]
+"496
+[; ;mic.c: 496:             break;
+[e $U 964  ]
 "497
-[; ;mic.c: 497:             break;
-[e $U 964  ]
-"498
-[; ;mic.c: 498:         default:
+[; ;mic.c: 497:         default:
 [e :U 973 ]
-"499
-[; ;mic.c: 499:             break;
+"498
+[; ;mic.c: 498:             break;
 [e $U 964  ]
-"500
-[; ;mic.c: 500:     }
+"499
+[; ;mic.c: 499:     }
 }
 [e $U 964  ]
 [e :U 965 ]
@@ -17667,115 +17667,115 @@ Version 4.0 HI-TECH Software Intermediate Code
  , $ -> 6 `i 972
  973 ]
 [e :U 964 ]
-"501
-[; ;mic.c: 501: }
+"500
+[; ;mic.c: 500: }
 [e :UE 957 ]
 }
-"505
-[; ;mic.c: 505: void loadMic1Thresholds(void) {
+"504
+[; ;mic.c: 504: void loadMic1Thresholds(void) {
 [v _loadMic1Thresholds `(v ~T0 @X0 1 ef ]
 {
 [e :U _loadMic1Thresholds ]
 [f ]
-"507
-[; ;mic.c: 507:     mic1Thresholds.ok_min = EEPROM_Read16(0x20);
+"506
+[; ;mic.c: 506:     mic1Thresholds.ok_min = EEPROM_Read16(0x20);
 [e = . _mic1Thresholds 0 ( _EEPROM_Read16 (1 -> -> 32 `i `uc ]
-"508
-[; ;mic.c: 508:     mic1Thresholds.ok_max = EEPROM_Read16(0x22);
+"507
+[; ;mic.c: 507:     mic1Thresholds.ok_max = EEPROM_Read16(0x22);
 [e = . _mic1Thresholds 1 ( _EEPROM_Read16 (1 -> -> 34 `i `uc ]
-"509
-[; ;mic.c: 509:     mic1Thresholds.pr_min = EEPROM_Read16(0x24);
+"508
+[; ;mic.c: 508:     mic1Thresholds.pr_min = EEPROM_Read16(0x24);
 [e = . _mic1Thresholds 2 ( _EEPROM_Read16 (1 -> -> 36 `i `uc ]
-"510
-[; ;mic.c: 510:     mic1Thresholds.pr_max = EEPROM_Read16(0x26);
+"509
+[; ;mic.c: 509:     mic1Thresholds.pr_max = EEPROM_Read16(0x26);
 [e = . _mic1Thresholds 3 ( _EEPROM_Read16 (1 -> -> 38 `i `uc ]
-"511
-[; ;mic.c: 511:     mic1Thresholds.ct_min = EEPROM_Read16(0x28);
+"510
+[; ;mic.c: 510:     mic1Thresholds.ct_min = EEPROM_Read16(0x28);
 [e = . _mic1Thresholds 4 ( _EEPROM_Read16 (1 -> -> 40 `i `uc ]
-"512
-[; ;mic.c: 512:     mic1Thresholds.ct_max = EEPROM_Read16(0x2A);
+"511
+[; ;mic.c: 511:     mic1Thresholds.ct_max = EEPROM_Read16(0x2A);
 [e = . _mic1Thresholds 5 ( _EEPROM_Read16 (1 -> -> 42 `i `uc ]
-"513
-[; ;mic.c: 513:     mic1Thresholds.sh_min = EEPROM_Read16(0x2C);
+"512
+[; ;mic.c: 512:     mic1Thresholds.sh_min = EEPROM_Read16(0x2C);
 [e = . _mic1Thresholds 6 ( _EEPROM_Read16 (1 -> -> 44 `i `uc ]
-"514
-[; ;mic.c: 514:     mic1Thresholds.sh_max = EEPROM_Read16(0x2E);
+"513
+[; ;mic.c: 513:     mic1Thresholds.sh_max = EEPROM_Read16(0x2E);
 [e = . _mic1Thresholds 7 ( _EEPROM_Read16 (1 -> -> 46 `i `uc ]
-"517
-[; ;mic.c: 517:     if ((mic1Thresholds.ok_min == 0xFFFF && mic1Thresholds.ok_max == 0xFFFF) ||
+"516
+[; ;mic.c: 516:     if ((mic1Thresholds.ok_min == 0xFFFF && mic1Thresholds.ok_max == 0xFFFF) ||
 [e $ ! || && == . _mic1Thresholds 0 -> 65535 `ui == . _mic1Thresholds 1 -> 65535 `ui && == . _mic1Thresholds 0 -> -> 0 `i `ui == . _mic1Thresholds 1 -> -> 0 `i `ui 975  ]
-"518
-[; ;mic.c: 518:         (mic1Thresholds.ok_min == 0 && mic1Thresholds.ok_max == 0)) {
+"517
+[; ;mic.c: 517:         (mic1Thresholds.ok_min == 0 && mic1Thresholds.ok_max == 0)) {
 {
-"520
-[; ;mic.c: 520:         mic1Thresholds = mic1ThresholdsDefault;
+"519
+[; ;mic.c: 519:         mic1Thresholds = mic1ThresholdsDefault;
 [e = _mic1Thresholds _mic1ThresholdsDefault ]
-"521
-[; ;mic.c: 521:          _delay((unsigned long)((100)*(16000000/4000.0)));
+"520
+[; ;mic.c: 520:          _delay((unsigned long)((100)*(16000000/4000.0)));
 [e ( __delay (1 -> * -> -> 100 `i `d / -> -> 16000000 `l `d .4000.0 `ul ]
-"523
-[; ;mic.c: 523:         EEPROM_Write16(0x20, 480);
+"522
+[; ;mic.c: 522:         EEPROM_Write16(0x20, 480);
 [e ( _EEPROM_Write16 (2 , -> -> 32 `i `uc -> -> 480 `i `ui ]
-"524
-[; ;mic.c: 524:         EEPROM_Write16(0x22, 515);
+"523
+[; ;mic.c: 523:         EEPROM_Write16(0x22, 515);
 [e ( _EEPROM_Write16 (2 , -> -> 34 `i `uc -> -> 515 `i `ui ]
-"525
-[; ;mic.c: 525:         EEPROM_Write16(0x24, 300);
+"524
+[; ;mic.c: 524:         EEPROM_Write16(0x24, 300);
 [e ( _EEPROM_Write16 (2 , -> -> 36 `i `uc -> -> 300 `i `ui ]
-"526
-[; ;mic.c: 526:         EEPROM_Write16(0x26, 350);
+"525
+[; ;mic.c: 525:         EEPROM_Write16(0x26, 350);
 [e ( _EEPROM_Write16 (2 , -> -> 38 `i `uc -> -> 350 `i `ui ]
-"527
-[; ;mic.c: 527:         EEPROM_Write16(0x28, 900);
+"526
+[; ;mic.c: 526:         EEPROM_Write16(0x28, 900);
 [e ( _EEPROM_Write16 (2 , -> -> 40 `i `uc -> -> 900 `i `ui ]
-"528
-[; ;mic.c: 528:         EEPROM_Write16(0x2A, 1023);
+"527
+[; ;mic.c: 527:         EEPROM_Write16(0x2A, 1023);
 [e ( _EEPROM_Write16 (2 , -> -> 42 `i `uc -> -> 1023 `i `ui ]
-"529
-[; ;mic.c: 529:         EEPROM_Write16(0x2C, 0);
+"528
+[; ;mic.c: 528:         EEPROM_Write16(0x2C, 0);
 [e ( _EEPROM_Write16 (2 , -> -> 44 `i `uc -> -> 0 `i `ui ]
-"530
-[; ;mic.c: 530:         EEPROM_Write16(0x2E, 5);
+"529
+[; ;mic.c: 529:         EEPROM_Write16(0x2E, 5);
 [e ( _EEPROM_Write16 (2 , -> -> 46 `i `uc -> -> 5 `i `ui ]
-"531
-[; ;mic.c: 531:     }
+"530
+[; ;mic.c: 530:     }
 }
 [e :U 975 ]
-"532
-[; ;mic.c: 532: }
+"531
+[; ;mic.c: 531: }
 [e :UE 974 ]
 }
-"534
-[; ;mic.c: 534: void saveMic1ThresholdsToEEPROM(void) {
+"533
+[; ;mic.c: 533: void saveMic1ThresholdsToEEPROM(void) {
 [v _saveMic1ThresholdsToEEPROM `(v ~T0 @X0 1 ef ]
 {
 [e :U _saveMic1ThresholdsToEEPROM ]
 [f ]
-"535
-[; ;mic.c: 535:     EEPROM_Write16(0x20, mic1Thresholds.ok_min);
+"534
+[; ;mic.c: 534:     EEPROM_Write16(0x20, mic1Thresholds.ok_min);
 [e ( _EEPROM_Write16 (2 , -> -> 32 `i `uc . _mic1Thresholds 0 ]
-"536
-[; ;mic.c: 536:     EEPROM_Write16(0x22, mic1Thresholds.ok_max);
+"535
+[; ;mic.c: 535:     EEPROM_Write16(0x22, mic1Thresholds.ok_max);
 [e ( _EEPROM_Write16 (2 , -> -> 34 `i `uc . _mic1Thresholds 1 ]
-"537
-[; ;mic.c: 537:     EEPROM_Write16(0x24, mic1Thresholds.pr_min);
+"536
+[; ;mic.c: 536:     EEPROM_Write16(0x24, mic1Thresholds.pr_min);
 [e ( _EEPROM_Write16 (2 , -> -> 36 `i `uc . _mic1Thresholds 2 ]
-"538
-[; ;mic.c: 538:     EEPROM_Write16(0x26, mic1Thresholds.pr_max);
+"537
+[; ;mic.c: 537:     EEPROM_Write16(0x26, mic1Thresholds.pr_max);
 [e ( _EEPROM_Write16 (2 , -> -> 38 `i `uc . _mic1Thresholds 3 ]
-"539
-[; ;mic.c: 539:     EEPROM_Write16(0x28, mic1Thresholds.ct_min);
+"538
+[; ;mic.c: 538:     EEPROM_Write16(0x28, mic1Thresholds.ct_min);
 [e ( _EEPROM_Write16 (2 , -> -> 40 `i `uc . _mic1Thresholds 4 ]
-"540
-[; ;mic.c: 540:     EEPROM_Write16(0x2A, mic1Thresholds.ct_max);
+"539
+[; ;mic.c: 539:     EEPROM_Write16(0x2A, mic1Thresholds.ct_max);
 [e ( _EEPROM_Write16 (2 , -> -> 42 `i `uc . _mic1Thresholds 5 ]
-"541
-[; ;mic.c: 541:     EEPROM_Write16(0x2C, mic1Thresholds.sh_min);
+"540
+[; ;mic.c: 540:     EEPROM_Write16(0x2C, mic1Thresholds.sh_min);
 [e ( _EEPROM_Write16 (2 , -> -> 44 `i `uc . _mic1Thresholds 6 ]
-"542
-[; ;mic.c: 542:     EEPROM_Write16(0x2E, mic1Thresholds.sh_max);
+"541
+[; ;mic.c: 541:     EEPROM_Write16(0x2E, mic1Thresholds.sh_max);
 [e ( _EEPROM_Write16 (2 , -> -> 46 `i `uc . _mic1Thresholds 7 ]
-"543
-[; ;mic.c: 543: }
+"542
+[; ;mic.c: 542: }
 [e :UE 976 ]
 }

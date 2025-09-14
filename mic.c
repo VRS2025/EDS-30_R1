@@ -114,7 +114,7 @@ void mic1_state(unsigned int PTT1){
                 jq8900_stop();
                 break;
         }
-    } else if (PTT1 == STATE_MIC_OK && mic1_not_prs == 0 && press_all == 0) {
+    } else if (PTT1 == STATE_MIC_OK && mic1_not_prs == 0 && press1 == 1) {
         // Turn off MIC1 audio if PTT returns to OK.
         //vol_set3 = 0;
         mic1_cut = 0;
@@ -210,7 +210,7 @@ void mic2_state(unsigned int PTT2){
                 break;
                 
         }
-    } else if (PTT2 == STATE_MIC_OK && mic2_not_prs == 0 && press_all == 0) {
+    } else if (PTT2 == STATE_MIC_OK && mic2_not_prs == 0 && press2 == 1) {
         vol_set2 = 0;
         mic2_short = 0;
         mic2_cut = 0;
@@ -272,11 +272,10 @@ void mic3_state(unsigned int PTT3){
         m3_inv = 1;
         BACK_LIGHT = 1;
         all_alarms |= (1 << 5);
-
         jq8900_stop();
 
         switch (config.zone_sel3) {    
- //======================================================MIC3 ON MIC2===========//           
+ //============================= MIC3 ON MIC2 ==============================//           
             case 0:
                 zone1State = 1;
                 shiftRegisterData |= (1 << 8) | (1 << 9);
@@ -371,7 +370,7 @@ void mic3_state(unsigned int PTT3){
         zone1State = 1;
         zone2State = 1;
         
-    }else if(PTT3 == STATE_MIC_OK && mic3_not_prs == 0 &&  press_all == 0) {
+    }else if(PTT3 == STATE_MIC_OK && mic3_not_prs == 0 &&  press_all == 1){
         press_all = 0;
         press3 = 0;
         mic3_cut = 0;
@@ -382,6 +381,7 @@ void mic3_state(unsigned int PTT3){
         line_test_on = 0;
         mic3_not_prs = 1;
         all_errors1 &= ~(1 << 3);
+        all_alarms &= ~(1 << 5);
         // Clear audio bits for MIC3/MIC1.
         if (config.mode == 1) {
             shiftRegisterData &= ~(1u << 0);                                    
@@ -391,7 +391,6 @@ void mic3_state(unsigned int PTT3){
         shiftRegisterData &= ~((unsigned int)(1 << 8 | 1 << 9));
         zone1State = 0;
         zone2State = 0;
-        all_alarms &= ~(1 << 5);
     }
 
     // MIC3 error handling
